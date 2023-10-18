@@ -1,0 +1,750 @@
+[{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a1"
+  },
+  "name": "Fabre"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a2"
+  },
+  "name": "Maskinongé"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a3"
+  },
+  "name": "Îles-de-la-Madeleine"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a4"
+  },
+  "name": "Vanier-Les Rivières"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a5"
+  },
+  "name": "Richmond"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a6"
+  },
+  "name": "Marguerite-Bourgeoys"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a7"
+  },
+  "name": "Viau"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a8"
+  },
+  "name": "Rouyn-Noranda–Témiscamingue"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331a9"
+  },
+  "name": "Orford"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331aa"
+  },
+  "name": "Prévost"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ab"
+  },
+  "name": "Matane-Matapédia"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ac"
+  },
+  "name": "Chutes-de-la-Chaudière"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ad"
+  },
+  "name": "Abitibi-Ouest"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ae"
+  },
+  "name": "Rimouski"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331af"
+  },
+  "name": "Bonaventure"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b0"
+  },
+  "name": "Iberville"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b1"
+  },
+  "name": "Anjou–Louis-Riel"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b2"
+  },
+  "name": "Granby"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b3"
+  },
+  "name": "Maurice-Richard"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b4"
+  },
+  "name": "Trois-Rivières"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b5"
+  },
+  "name": "Charlevoix–Côte-de-Beaupré"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b6"
+  },
+  "name": "Jean-Talon"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b7"
+  },
+  "name": "Gatineau"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b8"
+  },
+  "name": "Bourassa-Sauvé"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331b9"
+  },
+  "name": "La Peltrie"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ba"
+  },
+  "name": "Taillon"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331bb"
+  },
+  "name": "La Pinière"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331bc"
+  },
+  "name": "Portneuf"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331bd"
+  },
+  "name": "Duplessis"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331be"
+  },
+  "name": "Brome-Missisquoi"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331bf"
+  },
+  "name": "Deux-Montagnes"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c0"
+  },
+  "name": "Saint-Jérôme"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c1"
+  },
+  "name": "Marquette"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c2"
+  },
+  "name": "Mirabel"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c3"
+  },
+  "name": "Nelligan"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c4"
+  },
+  "name": "Repentigny"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c5"
+  },
+  "name": "Rivière-du-Loup–Témiscouata"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c6"
+  },
+  "name": "Marie-Victorin"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c7"
+  },
+  "name": "Lévis"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c8"
+  },
+  "name": "La Prairie"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331c9"
+  },
+  "name": "Abitibi-Est"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ca"
+  },
+  "name": "Mille-Îles"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331cb"
+  },
+  "name": "Bertrand"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331cc"
+  },
+  "name": "Richelieu"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331cd"
+  },
+  "name": "Terrebonne"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ce"
+  },
+  "name": "Laurier-Dorion"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331cf"
+  },
+  "name": "Pontiac"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d0"
+  },
+  "name": "Sanguinet"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d1"
+  },
+  "name": "Jonquière"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d2"
+  },
+  "name": "Robert-Baldwin"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d3"
+  },
+  "name": "Châteauguay"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d4"
+  },
+  "name": "Mercier"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d5"
+  },
+  "name": "Groulx"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d6"
+  },
+  "name": "Lac-Saint-Jean"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d7"
+  },
+  "name": "Taschereau"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d8"
+  },
+  "name": "Argenteuil"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331d9"
+  },
+  "name": "Louis-Hébert"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331da"
+  },
+  "name": "Roberval"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331db"
+  },
+  "name": "Laval-des-Rapides"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331dc"
+  },
+  "name": "Saint-François"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331dd"
+  },
+  "name": "Mégantic"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331de"
+  },
+  "name": "Labelle"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331df"
+  },
+  "name": "Borduas"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e0"
+  },
+  "name": "Charlesbourg"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e1"
+  },
+  "name": "Jacques-Cartier"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e2"
+  },
+  "name": "Sherbrooke"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e3"
+  },
+  "name": "Bellechasse"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e4"
+  },
+  "name": "Papineau"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e5"
+  },
+  "name": "Chicoutimi"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e6"
+  },
+  "name": "Blainville"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e7"
+  },
+  "name": "Vachon"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e8"
+  },
+  "name": "Chomedey"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331e9"
+  },
+  "name": "Johnson"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ea"
+  },
+  "name": "Ungava"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331eb"
+  },
+  "name": "Champlain"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ec"
+  },
+  "name": "Lotbinière-Frontenac"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ed"
+  },
+  "name": "Les Plaines"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ee"
+  },
+  "name": "Hochelaga-Maisonneuve"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ef"
+  },
+  "name": "Arthabaska"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f0"
+  },
+  "name": "L'Assomption"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f1"
+  },
+  "name": "Masson"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f2"
+  },
+  "name": "Saint-Jean"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f3"
+  },
+  "name": "Chapleau"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f4"
+  },
+  "name": "Chauveau"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f5"
+  },
+  "name": "Westmount–Saint-Louis"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f6"
+  },
+  "name": "Huntingdon"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f7"
+  },
+  "name": "Rosemont"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f8"
+  },
+  "name": "Nicolet-Bécancour"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331f9"
+  },
+  "name": "Sainte-Marie–Saint-Jacques"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331fa"
+  },
+  "name": "Notre-Dame-de-Grâce"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331fb"
+  },
+  "name": "René-Lévesque"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331fc"
+  },
+  "name": "Acadie"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331fd"
+  },
+  "name": "Gouin"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331fe"
+  },
+  "name": "Vaudreuil"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d501331ff"
+  },
+  "name": "Soulanges"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133200"
+  },
+  "name": "Laporte"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133201"
+  },
+  "name": "Beauce-Sud"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133202"
+  },
+  "name": "D'Arcy-McGee"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133203"
+  },
+  "name": "Berthier"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133204"
+  },
+  "name": "Beauce-Nord"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133205"
+  },
+  "name": "Beauharnois"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133206"
+  },
+  "name": "Côte-du-Sud"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133207"
+  },
+  "name": "Saint-Laurent"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133208"
+  },
+  "name": "Chambly"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133209"
+  },
+  "name": "Jeanne-Mance–Viger"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013320a"
+  },
+  "name": "Pointe-aux-Trembles"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013320b"
+  },
+  "name": "Montarville"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013320c"
+  },
+  "name": "Verchères"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013320d"
+  },
+  "name": "Gaspé"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013320e"
+  },
+  "name": "Vimont"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013320f"
+  },
+  "name": "Drummond–Bois-Francs"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133210"
+  },
+  "name": "Mont-Royal–Outremont"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133211"
+  },
+  "name": "Montmorency"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133212"
+  },
+  "name": "Sainte-Rose"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133213"
+  },
+  "name": "Saint-Hyacinthe"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133214"
+  },
+  "name": "Joliette"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133215"
+  },
+  "name": "Camille-Laurin"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133216"
+  },
+  "name": "LaFontaine"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133217"
+  },
+  "name": "Laviolette–Saint-Maurice"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133218"
+  },
+  "name": "Rousseau"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d50133219"
+  },
+  "name": "Dubuc"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013321a"
+  },
+  "name": "Hull"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013321b"
+  },
+  "name": "Verdun"
+},
+{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013321c"
+  },
+  "name": "Jean-Lesage"
+},
+{
+  "_id": {
+    "$oid": "651da3322686d849ec0f4453"
+  },
+  "name": "Saint-Henri–Sainte-Anne"
+}]

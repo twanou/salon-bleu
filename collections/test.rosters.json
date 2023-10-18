@@ -1,0 +1,4142 @@
+[{
+  "_id": {
+    "$oid": "63db0e5a67449a1d5013321d"
+  },
+  "hash": -1843413509,
+  "startDate": {
+    "$date": "2023-02-01T05:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2023-10-04T04:00:00.000Z"
+  },
+  "assignments": [
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe06"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdec"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdce"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe12"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe23"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0c"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe18"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331aa"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdca"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ab"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ac"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe11"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ad"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe29"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ae"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe03"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331af"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe10"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0e"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe17"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe07"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ba"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe24"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe19"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdad"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331be"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdee"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bf"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe20"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfe"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe14"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdde"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfa"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ca"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe01"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdba"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ce"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0f"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cf"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe04"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1f"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdff"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331da"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe26"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331db"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe25"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331dc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331dd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe13"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331de"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331df"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe27"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfded"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdda"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe05"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdae"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ea"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331eb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1a"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ec"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ed"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ee"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe22"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ef"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe09"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe28"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe02"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0a"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdea"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fa"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe15"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fe"
+      },
+      "partyId": {
+        "$oid": "63b5c706bbbb505b9d3986c8"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe21"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ff"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe08"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133200"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdaf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133201"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133202"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133203"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133204"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133205"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133206"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe00"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133207"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133208"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133209"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320a"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320b"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe16"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320c"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320d"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdef"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320e"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0d"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320f"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1d"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133210"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133211"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133212"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133213"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1c"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133214"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133215"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133216"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133217"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133218"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdeb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133219"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0b"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321a"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1b"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321b"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1e"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321c"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "651da3322686d849ec0f4454"
+  },
+  "hash": 683828715,
+  "startDate": {
+    "$date": "2023-10-04T04:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2023-10-18T04:00:00.000Z"
+  },
+  "assignments": [
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe06"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdec"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdce"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe12"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe23"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0c"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe18"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331aa"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdca"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ab"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ac"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe11"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ad"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe29"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ae"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe03"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331af"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe10"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0e"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe17"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe07"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ba"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe24"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe19"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdad"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331be"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdee"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bf"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "651da3322686d849ec0f4452"
+      },
+      "districtId": {
+        "$oid": "651da3322686d849ec0f4453"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe20"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfe"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe14"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdde"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfa"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ca"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe01"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdba"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ce"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0f"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cf"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe04"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1f"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdff"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331da"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe26"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331db"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe25"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331dc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331dd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe13"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331de"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331df"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe27"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfded"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdda"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe05"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdae"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ea"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331eb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1a"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ec"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ed"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ee"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe22"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ef"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe09"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe28"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe02"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0a"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdea"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fa"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe15"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fe"
+      },
+      "partyId": {
+        "$oid": "63b5c706bbbb505b9d3986c8"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe21"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ff"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe08"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133200"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdaf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133201"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133202"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133203"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133204"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133205"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133206"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe00"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133207"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133208"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133209"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320a"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320b"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe16"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320c"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320d"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdef"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320e"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0d"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320f"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1d"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133210"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133211"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133212"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133213"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1c"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133214"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133215"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133216"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133217"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133218"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdeb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133219"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0b"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321a"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1b"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321b"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1e"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321c"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "652fe61d4f1b021bf96a6c7b"
+  },
+  "hash": -645239128,
+  "startDate": {
+    "$date": "2023-10-18T04:00:00.000Z"
+  },
+  "assignments": [
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe06"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdec"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdce"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a6"
+      },
+      "partyId": {
+        "$oid": "63b5c706bbbb505b9d3986c8"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe12"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe23"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0c"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331a9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe18"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331aa"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdca"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ab"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ac"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe11"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ad"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe29"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ae"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe03"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331af"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe10"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0e"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe17"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe07"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ba"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe24"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe19"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdad"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331be"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdee"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331bf"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "651da3322686d849ec0f4452"
+      },
+      "districtId": {
+        "$oid": "651da3322686d849ec0f4453"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe20"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfe"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe14"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdde"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331c9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfa"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ca"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe01"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdba"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ce"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0f"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331cf"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe04"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1f"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdff"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331d9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331da"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe26"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331db"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe25"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331dc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331dd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe13"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331de"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331df"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe27"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfded"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdda"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe05"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331e9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdae"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ea"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfddc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331eb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1a"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ec"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ed"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ee"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe22"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ef"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe09"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f0"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f1"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe28"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f2"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f3"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f4"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f5"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcd"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f7"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe02"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f8"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0a"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331f9"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdea"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fa"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fb"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fc"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc3"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fd"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe15"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331fe"
+      },
+      "partyId": {
+        "$oid": "63b5c706bbbb505b9d3986c8"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "652fe61d4f1b021bf96a6c7a"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331b6"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe21"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d501331ff"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe08"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133200"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdaf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133201"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd2"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133202"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdcf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133203"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133204"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133205"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf7"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133206"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe00"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133207"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133208"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133209"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf5"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320a"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc4"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320b"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe16"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320c"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320d"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdef"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320e"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0d"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013320f"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1d"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133210"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdfc"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133211"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfde6"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133212"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdbf"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133213"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1c"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133214"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdb9"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133215"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6a"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdf8"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133216"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff6d"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdd1"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133217"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdc0"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133218"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfdeb"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d50133219"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe0b"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321a"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff66"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1b"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321b"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    },
+    {
+      "deputyId": {
+        "$oid": "636502605c4c7c07b4fcfe1e"
+      },
+      "districtId": {
+        "$oid": "63db0e5a67449a1d5013321c"
+      },
+      "partyId": {
+        "$oid": "63ad159b7786c65bad6bff78"
+      }
+    }
+  ]
+}]
