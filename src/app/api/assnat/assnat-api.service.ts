@@ -10,6 +10,8 @@ export class AssnatApiService {
   constructor(private httpClient: HttpClient) {}
 
   public getSubjects(): Observable<SujetReponse> {
-    return this.httpClient.get<SujetReponse>('http://localhost:8080/api/sujets?deputeIds=636502605c4c7c07b4fcfdca');
+    return this.httpClient.get<SujetReponse>(
+      'http://localhost:8080/api/sujets?deputeIds=636502605c4c7c07b4fcfdca,636502605c4c7c07b4fcfe25',
+    );
   }
 }

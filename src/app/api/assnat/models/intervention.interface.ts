@@ -6,5 +6,5 @@ export interface Intervention {
   depute: Depute;
   circonscription: Circonscription;
   parti: Parti;
-  parapgraphes: string[];
+  paragraphes: string[];
 }

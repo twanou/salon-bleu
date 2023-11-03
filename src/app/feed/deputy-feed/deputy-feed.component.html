@@ -1,1 +1,3 @@
-{{ subjects | json }}
+<div *ngFor="let subject of subjects" class="card">
+  <sb-subject-card [subject]="subject"></sb-subject-card>
+</div>

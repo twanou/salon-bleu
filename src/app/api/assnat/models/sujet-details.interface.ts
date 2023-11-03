@@ -4,5 +4,5 @@ import { SujetType } from './sujet-type.enum';
 export interface SujetDetails {
   type: SujetType;
   titre: string;
-  intervenion: Intervention[];
+  interventions: Intervention[];
 }
