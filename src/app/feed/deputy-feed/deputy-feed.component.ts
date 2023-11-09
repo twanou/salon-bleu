@@ -33,6 +33,7 @@ export class DeputyFeedComponent implements OnInit {
   private updateFeed(ids: string[]) {
     this.subscription?.unsubscribe();
     this.subjects = [];
+
     if (ids.length > 0) {
       this.isLoading = true;
       this.subscription = this.assnatApi.getSubjects(ids).subscribe({
