@@ -7,7 +7,6 @@ import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
   styleUrls: ['./subject-card.component.scss'],
 })
 export class SubjectCardComponent {
-  
   @Input()
   public subject: Sujet | null = null;
 }

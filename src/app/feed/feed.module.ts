@@ -5,10 +5,11 @@ import { ApiModule } from '../api/api.module';
 import { SubjectCardComponent } from './subject-card/subject-card.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { SbCommonModule } from '../sb-common/sb-common.module';
 
 @NgModule({
   declarations: [DeputyFeedComponent, SubjectCardComponent],
-  imports: [CommonModule, ApiModule, MatCardModule, MatExpansionModule],
+  imports: [CommonModule, ApiModule, MatCardModule, MatExpansionModule, SbCommonModule],
   exports: [DeputyFeedComponent],
 })
 export class FeedModule {}
