@@ -1,0 +1,5 @@
+<mat-selection-list #compositionList (selectionChange)="onChange(compositionList.selectedOptions.selected)">
+  <mat-list-option [value]="composition.depute" color="primary" *ngFor="let composition of compositions">
+    {{ composition?.depute?.nom }}, {{ composition?.depute?.prenom }}
+  </mat-list-option>
+</mat-selection-list>

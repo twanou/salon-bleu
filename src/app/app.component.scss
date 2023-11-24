@@ -1,0 +1,22 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 325px;
+}
+
+.mat-toolbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.filler {
+  padding-top: var(--mat-toolbar-standard-height);
+}
+@media (max-width: 599px) {
+  .filler {
+    padding-top: var(--mat-toolbar-mobile-height);
+  }
+}
