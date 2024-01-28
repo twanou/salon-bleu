@@ -35,7 +35,7 @@ export class DeputyFeedComponent implements OnInit {
     this.subjects = [];
     if (ids.length > 0) {
       this.isLoading = true;
-      this.subscription = this.assnatApi.getSubjects(ids).subscribe({
+      this.subscription = this.assnatApi.getSubjectsByDeputyIds(ids).subscribe({
         next: (response: SujetReponse) => {
           this.subjects = response.sujets;
         },
