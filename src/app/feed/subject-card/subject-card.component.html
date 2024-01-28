@@ -23,7 +23,7 @@
     </mat-accordion>
   </mat-card-content>
   <mat-card-actions class="action">
-    <button [cdkCopyToClipboard]="value" matTooltip="Copier le lien" mat-icon-button>
+    <button [cdkCopyToClipboard]="getDirectLink(subject.id)" matTooltip="Copier le lien" mat-icon-button>
       <mat-icon>link</mat-icon>
     </button>
     <button (click)="openAssnatLink(subject.url)" matTooltip="Affichez sur le site web de l'assemblée nationale" mat-icon-button>

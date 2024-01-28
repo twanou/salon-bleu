@@ -10,8 +10,12 @@ import { AffectationsReponse } from './models/compositions-reponse.interface';
 export class AssnatApiService {
   constructor(private httpClient: HttpClient) {}
 
-  public getSubjects(ids: string[]): Observable<SujetReponse> {
+  public getSubjectsByDeputyIds(ids: string[]): Observable<SujetReponse> {
     return this.httpClient.get<SujetReponse>(`http://localhost:8080/api/sujets?deputeIds=${ids.join(',')}`);
+  }
+
+  public getSubjects(ids: string[]): Observable<SujetReponse> {
+    return this.httpClient.get<SujetReponse>(`http://localhost:8080/api/sujets/${ids}`);
   }
 
   public getAssignments(): Observable<AffectationsReponse> {
