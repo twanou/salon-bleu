@@ -6,5 +6,6 @@ export interface Affectation {
   depute: Depute;
   circonscription: Circonscription;
   parti: Parti;
+  photoUrl: string;
   fonctions: string[];
 }

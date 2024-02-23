@@ -8,7 +8,7 @@
       <mat-expansion-panel [expanded]="i === 0" *ngFor="let intervention of subject.details.interventions; index as i">
         <mat-expansion-panel-header>
           <mat-panel-title class="card-title">
-            <div [style.backgroundImage]="'url(/assets/deputies/' + intervention.affectation.depute.id + '.jpg)'" class="avatar"></div>
+            <sb-avatar [url]="intervention.affectation.photoUrl"></sb-avatar>
             {{ intervention.affectation.depute.titre }}
             {{ intervention.affectation.depute.prenom }}
             {{ intervention.affectation.depute.nom }}
@@ -26,7 +26,7 @@
     <button [cdkCopyToClipboard]="getDirectLink(subject.id)" matTooltip="Copier le lien" mat-icon-button>
       <mat-icon>link</mat-icon>
     </button>
-    <button (click)="openAssnatLink(subject.url)" matTooltip="Affichez sur le site web de l'assemblée nationale" mat-icon-button>
+    <button (click)="openAssnatLink(subject.url)" matTooltip="Affichez sur le site web de l'Assemblée nationale" mat-icon-button>
       <mat-icon>open_in_new</mat-icon>
     </button>
   </mat-card-actions>
