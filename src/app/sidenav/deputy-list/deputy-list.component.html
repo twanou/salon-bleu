@@ -1,5 +1,10 @@
 <mat-selection-list #compositionList (selectionChange)="onChange(compositionList.selectedOptions.selected)">
-  <mat-list-option [value]="assignment.depute" color="primary" *ngFor="let assignment of assignments">
+  <mat-list-option
+    [selected]="isDeputySelected(assignment.depute.id)"
+    [value]="assignment.depute.id"
+    color="primary"
+    *ngFor="let assignment of assignments"
+  >
     <div class="row">
       <sb-avatar [url]="assignment.photoUrl"></sb-avatar> {{ assignment.depute.nom }}, {{ assignment.depute.prenom }}
     </div>

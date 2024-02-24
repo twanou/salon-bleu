@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Subject, Subscription, map, takeUntil, tap } from 'rxjs';
+import { Subject, Subscription, takeUntil, tap } from 'rxjs';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
-import { Depute } from 'src/app/api/assnat/models/depute.interface';
 import { SujetReponse } from 'src/app/api/assnat/models/sujet-reponse.interface';
 import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
 import { SelectedDeputyService } from 'src/app/sidenav/selected-deputy.service';
@@ -23,7 +22,6 @@ export class DeputyFeedComponent implements OnInit {
   ngOnInit(): void {
     this.selectedDeputyService.selectedDeputies$
       .pipe(
-        map((depute: Depute[]) => depute.map((depute: Depute) => depute.id)),
         tap((ids: string[]) => (this.selectedDeputiesCount = ids.length)),
         takeUntil(this.destroy$),
       )
