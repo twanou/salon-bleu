@@ -1,4 +1,4 @@
-<div style="padding: 1rem">
+<sb-page-template [sidenav]="true">
   <sb-spinner [isLoading]="isLoading">
     <sb-subject-card *ngFor="let subject of subjects" class="card" [subject]="subject"></sb-subject-card>
   </sb-spinner>
@@ -17,4 +17,4 @@
       <mat-card-content> Aucun résulat. </mat-card-content>
     </mat-card>
   </ng-container>
-</div>
+</sb-page-template>

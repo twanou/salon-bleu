@@ -1,7 +1,8 @@
 <mat-toolbar color="primary">
-  <button type="button" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
+  <button type="button" mat-icon-button (click)="drawer.toggle()" *ngIf="(isSidenav$ | async) && (isHandset$ | async)">
     <mat-icon>menu</mat-icon>
   </button>
+
   <a class="home-link" mat-fab extended color="primary" routerLink=".">
     <span class="banner">
       <img class="logo" src="assets/qc.svg" />
@@ -16,7 +17,12 @@
 </mat-toolbar>
 
 <mat-sidenav-container class="sidenav-container filler">
-  <mat-sidenav #drawer class="sidenav filler" [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
+  <mat-sidenav
+    #drawer
+    class="sidenav filler"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="(isSidenav$ | async) && (isHandset$ | async) === false"
+  >
     <sb-deputy-list></sb-deputy-list>
   </mat-sidenav>
   <mat-sidenav-content>
