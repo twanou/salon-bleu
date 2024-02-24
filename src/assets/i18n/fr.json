@@ -1,0 +1,12 @@
+{
+  "app": {
+    "title": "Salon bleu",
+    "welcome": "Bienvenue au Salon bleu!",
+    "description": "Une application permettant de consulter les journaux des débats de l'Assemblée nationale du Québec."
+  },
+  "feed": {
+    "no-result": "Aucun résultat",
+    "copy-link": "Copier le lien",
+    "ref-assnat": "Afficher sur le site web de l'Assemblée nationale"
+  }
+}
