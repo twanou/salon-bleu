@@ -26,6 +26,7 @@
   </mat-card-content>
   <mat-card-actions class="action">
     <button
+      (click)="onDirectLinkCopy()"
       [cdkCopyToClipboard]="getDirectLink(subject.id)"
       [matTooltip]="'feed.copy-link' | translate"
       mat-icon-button
