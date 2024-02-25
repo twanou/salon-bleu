@@ -3,6 +3,7 @@ import { MatListOption } from '@angular/material/list';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { Affectation } from 'src/app/api/assnat/models/composition.interface';
 import { AffectationsReponse } from 'src/app/api/assnat/models/compositions-reponse.interface';
+import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
 import { SelectedDeputyService } from '../selected-deputy.service';
 
 @Component({
@@ -14,7 +15,11 @@ export class DeputyListComponent implements OnInit {
   public assignments: Affectation[] = [];
   private selectedDeputies: Set<string> = new Set<string>();
 
-  constructor(private assnatApi: AssnatApiService, private selectedDeputyService: SelectedDeputyService) {}
+  constructor(
+    private assnatApi: AssnatApiService,
+    private selectedDeputyService: SelectedDeputyService,
+    private errorHandlerService: ErrorHandlerService,
+  ) {}
 
   ngOnInit() {
     const deputies: string[] = JSON.parse(localStorage.getItem('deputies') || '[]');
@@ -22,9 +27,14 @@ export class DeputyListComponent implements OnInit {
     this.selectedDeputies = new Set<string>(deputies);
     this.assnatApi.getAssignments().subscribe({
       next: (response: AffectationsReponse) => {
+        if (response.affectations.length === 0) {
+          this.errorHandlerService.handle();
+        }
         this.assignments = response.affectations;
       },
-      error: () => {},
+      error: (error) => {
+        this.errorHandlerService.handle(error);
+      },
     });
   }
 

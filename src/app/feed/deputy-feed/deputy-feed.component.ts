@@ -3,6 +3,7 @@ import { Subject, Subscription, takeUntil } from 'rxjs';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { SujetReponse } from 'src/app/api/assnat/models/sujet-reponse.interface';
 import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
+import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
 import { TemplateService } from 'src/app/sb-common/service/template-service.service';
 import { SelectedDeputyService } from 'src/app/sidenav/selected-deputy.service';
 
@@ -26,6 +27,7 @@ export class DeputyFeedComponent implements OnInit {
     private assnatApi: AssnatApiService,
     private selectedDeputyService: SelectedDeputyService,
     private templateService: TemplateService,
+    private errorHandlerService: ErrorHandlerService,
   ) {}
 
   ngOnInit() {
@@ -41,7 +43,6 @@ export class DeputyFeedComponent implements OnInit {
 
   load() {
     this.isLoading = true;
-    this.templateService.requestScrollDown();
     this.subscription?.unsubscribe();
     this.subscription = this.assnatApi
       .getSubjectsByDeputyIds(this.selectedDeputies, this.currentPage++, this.pageSize)
@@ -50,11 +51,18 @@ export class DeputyFeedComponent implements OnInit {
           this.hasMoreResults = response.sujets.length === this.pageSize;
           this.subjects.push(...response.sujets);
         },
-        error: () => {},
+        error: (error) => {
+          this.errorHandlerService.handle(error);
+        },
         complete: () => {
           this.isLoading = false;
         },
       });
+  }
+
+  loadMore() {
+    this.templateService.requestScrollDown();
+    this.load();
   }
 
   ngOnDestroy() {

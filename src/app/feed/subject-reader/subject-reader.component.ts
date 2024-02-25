@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { SujetReponse } from 'src/app/api/assnat/models/sujet-reponse.interface';
 import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
+import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
 
 @Component({
   selector: 'sb-subject-reader',
@@ -12,7 +13,12 @@ import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
 export class SubjectReaderComponent {
   public subjects: Sujet[] = [];
   public isLoading = false;
-  constructor(private assnatApi: AssnatApiService, private route: ActivatedRoute, private router: Router) {}
+  constructor(
+    private assnatApi: AssnatApiService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private errorHandlerService: ErrorHandlerService,
+  ) {}
 
   ngOnInit(): void {
     const ids = this.route.snapshot.paramMap.getAll('ids');
@@ -20,11 +26,13 @@ export class SubjectReaderComponent {
     this.assnatApi.getSubjects(ids).subscribe({
       next: (response: SujetReponse) => {
         if (response.sujets.length === 0) {
-          this.router.navigate(['fil']); //TODO rediriger vers une page d'erreur?
+          this.router.navigate(['fil']);
         }
         this.subjects = response.sujets;
       },
-      error: () => {},
+      error: (error) => {
+        this.errorHandlerService.handle(error);
+      },
       complete: () => {
         this.isLoading = false;
       },

@@ -1,5 +1,5 @@
 <sb-page-template [sidenav]="false">
   <sb-spinner [isLoading]="isLoading">
-    <sb-subject-card *ngFor="let subject of subjects" class="card" [subject]="subject"></sb-subject-card>
+    <sb-subject-card *ngFor="let subject of subjects" class="feed-item" [subject]="subject"></sb-subject-card>
   </sb-spinner>
 </sb-page-template>

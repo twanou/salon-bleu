@@ -10,5 +10,9 @@
     "show-more": "Afficher plus",
     "copy-link": "Copier le lien",
     "ref-assnat": "Afficher sur le site web de l'Assemblée nationale"
+  },
+  "error": {
+    "title": "Une erreur est survenue",
+    "message": "Si je vous ai bien compris, vous êtes en train de dire à la prochaine fois..."
   }
 }
