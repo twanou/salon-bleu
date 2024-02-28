@@ -1,5 +1,10 @@
-.card-title {
-  white-space: nowrap;
+@media (max-width: 599px) {
+  .panel-title {
+    font-size: 0.8rem;
+  }
+  .name-visible {
+    display: none;
+  }
 }
 
 .content {
@@ -14,6 +19,15 @@
   font-style: italic;
   font-size: 0.7rem;
   color: darkgray;
+}
+
+.show-more-button {
+  font-size: 0.7rem;
+}
+
+.show-more-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .action {
