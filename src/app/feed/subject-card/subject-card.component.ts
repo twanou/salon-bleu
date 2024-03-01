@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { MatExpansionPanel } from '@angular/material/expansion';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { TranslateService } from '@ngx-translate/core';
 import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
@@ -36,6 +37,14 @@ export class SubjectCardComponent {
       this.snackBar.open(label, undefined, {
         duration: 2000,
       });
+    });
+  }
+
+  onOpen(element: MatExpansionPanel) {
+    element._body.nativeElement.scrollIntoView({
+      block: 'start',
+      inline: 'nearest',
+      behavior: 'smooth',
     });
   }
 }

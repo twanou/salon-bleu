@@ -1,12 +1,8 @@
-.panel-title {
-  white-space: nowrap;
-  @media (max-width: 599px) {
+@media (max-width: 599px) {
+  .panel-title {
     font-size: 0.8rem;
   }
-}
-
-.name-visible {
-  @media (max-width: 599px) {
+  .name-visible {
     display: none;
   }
 }
