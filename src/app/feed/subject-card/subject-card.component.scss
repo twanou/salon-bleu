@@ -1,5 +1,14 @@
-.card-title {
+.panel-title {
   white-space: nowrap;
+  @media (max-width: 599px) {
+    font-size: 0.8rem;
+  }
+}
+
+.name-visible {
+  @media (max-width: 599px) {
+    display: none;
+  }
 }
 
 .content {
