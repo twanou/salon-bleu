@@ -20,7 +20,7 @@ export class SubjectCardComponent implements AfterViewInit {
   private moreVisible: Map<string, boolean> = new Map<string, boolean>();
   private panels: MatExpansionPanel[] = [];
   private panelStates: boolean[] = [];
-  private static readonly MAX_FUNCTION = 3;
+  private readonly MAX_FUNCTION = 3;
 
   constructor(private snackBar: MatSnackBar, private translateService: TranslateService) {}
 
@@ -40,9 +40,7 @@ export class SubjectCardComponent implements AfterViewInit {
   }
 
   isMoreVisible(affectation: Affectation) {
-    return (
-      affectation.fonctions.length > SubjectCardComponent.MAX_FUNCTION && !this.moreVisible.has(affectation.depute.id)
-    );
+    return affectation.fonctions.length > this.MAX_FUNCTION && !this.moreVisible.has(affectation.depute.id);
   }
 
   showMore(deputyId: string) {
@@ -50,7 +48,7 @@ export class SubjectCardComponent implements AfterViewInit {
   }
 
   getFunctionsDisplayCount(affectation: Affectation) {
-    return this.isMoreVisible(affectation) ? SubjectCardComponent.MAX_FUNCTION : affectation.fonctions.length;
+    return this.isMoreVisible(affectation) ? this.MAX_FUNCTION : affectation.fonctions.length;
   }
 
   getDirectLink(subjectId: string) {
