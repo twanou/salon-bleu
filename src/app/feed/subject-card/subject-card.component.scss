@@ -21,6 +21,15 @@
   color: darkgray;
 }
 
+.show-more-button {
+  font-size: 0.7rem;
+}
+
+.show-more-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .action {
   display: flex;
   justify-content: flex-end;
