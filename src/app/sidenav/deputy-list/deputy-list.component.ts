@@ -3,9 +3,9 @@ import { MatListOption } from '@angular/material/list';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { Affectation } from 'src/app/api/assnat/models/composition.interface';
 import { AffectationsReponse } from 'src/app/api/assnat/models/compositions-reponse.interface';
+import { Depute } from 'src/app/api/assnat/models/depute.interface';
 import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
 import { SelectedDeputyService } from '../selected-deputy.service';
-import { Depute } from 'src/app/api/assnat/models/depute.interface';
 
 @Component({
   selector: 'sb-deputy-list',
@@ -17,6 +17,7 @@ export class DeputyListComponent implements OnInit {
 
   public assignments: Affectation[] = [];
   private selectedDeputies: Set<string> = new Set<string>();
+  private readonly STORAGE_NAME = 'deputes-v1';
 
   constructor(
     private assnatApi: AssnatApiService,
@@ -25,7 +26,7 @@ export class DeputyListComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    const deputies: string[] = JSON.parse(localStorage.getItem('deputies') || '[]');
+    const deputies: string[] = JSON.parse(localStorage.getItem(this.STORAGE_NAME) || '[]');
     this.selectedDeputyService.setDeputies(deputies);
     this.selectedDeputies = new Set<string>(deputies);
     this.assnatApi.getAssignments().subscribe({
@@ -41,7 +42,7 @@ export class DeputyListComponent implements OnInit {
 
   onChange(options: MatListOption[]) {
     const deputies: string[] = options.map((o) => o.value);
-    localStorage.setItem('deputies', JSON.stringify(deputies));
+    localStorage.setItem(this.STORAGE_NAME, JSON.stringify(deputies));
     this.selectedDeputyService.setDeputies(deputies);
   }
 
