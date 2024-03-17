@@ -3,13 +3,20 @@
     <mat-icon>menu</mat-icon>
   </button>
 
-  <a class="home-link" mat-fab extended color="primary" routerLink=".">
+  <a
+    class="home-link"
+    [ngClass]="{ 'home-link-small': (isHandset$ | async) }"
+    mat-fab
+    extended
+    color="primary"
+    routerLink="."
+  >
     <span class="banner">
       <img class="logo" src="assets/icons/qc.svg" />
       <span class="app-title">{{ 'app.title' | translate }}</span>
     </span>
   </a>
-  <div class="github-icon">
+  <div [ngClass]="{ 'github-icon-large': !(isHandset$ | async) }">
     <a mat-icon-button href="https://github.com/twanou/salon-bleu" aria-label="Github">
       <img src="assets/icons/github.svg" />
     </a>
@@ -21,7 +28,7 @@
     #drawer
     class="sidenav filler"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
-    [opened]="isSidenavReady && (isSidenav$ | async) && (isHandset$ | async) === false"
+    [opened]="isSidenavReady && (isSidenav$ | async) && !(isHandset$ | async)"
   >
     <sb-deputy-list (isLoaded)="isSidenavReady = $event"></sb-deputy-list>
   </mat-sidenav>

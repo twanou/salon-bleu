@@ -11,10 +11,12 @@ import { TemplateService } from './sb-common/service/template-service.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit, AfterViewChecked {
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe([Breakpoints.Handset, Breakpoints.Tablet]).pipe(
-    map((result) => result.matches),
-    shareReplay(),
-  );
+  isHandset$: Observable<boolean> = this.breakpointObserver
+    .observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Medium])
+    .pipe(
+      map((result) => result.matches),
+      shareReplay(),
+    );
 
   isSidenav$: Observable<boolean> = this.templateService.currentConfig$.pipe(
     map((config) => config.sidenavActive),
