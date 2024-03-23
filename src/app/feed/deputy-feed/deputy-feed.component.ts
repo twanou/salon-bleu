@@ -17,18 +17,22 @@ export class DeputyFeedComponent implements OnInit {
   public selectedDeputies: string[] = [];
   public isLoading = false;
   public hasMoreResults = false;
+  public lastUpdate: Date;
 
   private destroy$ = new Subject<void>();
   private subscription: Subscription | null = null;
   private pageSize = 25;
   private currentPage = 0;
+  private readonly STORAGE_NAME = 'last-update-v1';
 
   constructor(
     private assnatApi: AssnatApiService,
     private selectedDeputyService: SelectedDeputyService,
     private templateService: TemplateService,
     private errorHandlerService: ErrorHandlerService,
-  ) {}
+  ) {
+    this.lastUpdate = new Date(localStorage.getItem(this.STORAGE_NAME) || new Date('3000-01-01'));
+  }
 
   ngOnInit() {
     this.selectedDeputyService.selectedDeputies$.pipe(takeUntil(this.destroy$)).subscribe((ids: string[]) => {
@@ -48,6 +52,7 @@ export class DeputyFeedComponent implements OnInit {
       .getSubjectsByDeputyIds(this.selectedDeputies, this.currentPage++, this.pageSize)
       .subscribe({
         next: (response: SujetReponse) => {
+          localStorage.setItem(this.STORAGE_NAME, response.derniereMaj);
           this.hasMoreResults = response.sujets.length === this.pageSize;
           this.subjects.push(...response.sujets);
         },
