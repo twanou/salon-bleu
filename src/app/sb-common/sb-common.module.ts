@@ -7,10 +7,18 @@ import { AvatarComponent } from './avatar/avatar.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { PageTemplateComponent } from './page-template/page-template.component';
 import { PillComponent } from './pill/pill.component';
+import { SbdatePipe } from './pipes/sbdate.pipe';
 import { SpinnerComponent } from './spinner/spinner.component';
 
 @NgModule({
-  declarations: [SpinnerComponent, AvatarComponent, PageTemplateComponent, ErrorPageComponent, PillComponent],
+  declarations: [
+    SpinnerComponent,
+    AvatarComponent,
+    PageTemplateComponent,
+    ErrorPageComponent,
+    PillComponent,
+    SbdatePipe,
+  ],
   imports: [CommonModule, MatProgressSpinnerModule, MatCardModule, TranslateModule],
   exports: [
     SpinnerComponent,
@@ -19,6 +27,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
     TranslateModule,
     ErrorPageComponent,
     PillComponent,
+    SbdatePipe,
   ],
 })
 export class SbCommonModule {}
