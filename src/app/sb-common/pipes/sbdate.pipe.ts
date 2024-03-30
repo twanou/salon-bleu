@@ -20,9 +20,21 @@ export class SbdatePipe implements PipeTransform {
     'décembre',
   ];
 
-  transform(value: string): string {
-    const date = new Date(value);
-    return `${this.getDate(date)} ${this.getMonth(date)} ${date.getUTCFullYear()}`;
+  transform(...values: string[]): string {
+    const dateBuilder: string[] = [];
+    for (let i = 0; i < values.length; ++i) {
+      const date = new Date(values[i]);
+      const nextDate = i + 1 < values.length ? new Date(values[i + 1]) : null;
+      dateBuilder.push(this.getDate(date));
+      if (nextDate && this.getMonth(date) === this.getMonth(nextDate)) {
+        dateBuilder.push(', ');
+      } else if (nextDate) {
+        dateBuilder.push(` ${this.getMonth(date)}, `);
+      } else {
+        dateBuilder.push(` ${this.getMonth(date)} ${date.getUTCFullYear()}`);
+      }
+    }
+    return dateBuilder.join('');
   }
 
   private getDate(date: Date): string {
