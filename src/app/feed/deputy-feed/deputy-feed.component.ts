@@ -19,6 +19,7 @@ export class DeputyFeedComponent implements OnInit {
   public hasMoreResults = false;
   public userLastUpdate!: string;
   public appLastUpdate!: string;
+  public nextUpdates: string[] = [];
 
   private destroy$ = new Subject<void>();
   private subscription: Subscription | null = null;
@@ -54,6 +55,7 @@ export class DeputyFeedComponent implements OnInit {
       .subscribe({
         next: (response: SujetReponse) => {
           this.appLastUpdate = response.derniereMaj;
+          this.nextUpdates = response.futuresMaj;
           localStorage.setItem(this.STORAGE_NAME, response.derniereMaj);
           this.hasMoreResults = response.sujets.length === this.pageSize;
           this.subjects.push(...response.sujets);

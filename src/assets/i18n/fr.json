@@ -12,7 +12,8 @@
     "copy-link-notification": "Lien copié!",
     "ref-assnat": "Afficher sur le site web de l'Assemblée nationale",
     "new": "Nouveau",
-    "last-update": "Dernier journal disponible : {{date}}"
+    "last-update": "Dernier journal disponible : {{date}}",
+    "next-update": "À venir : {{date}}"
   },
   "error": {
     "title": "Une erreur est survenue",
