@@ -13,7 +13,7 @@ export class AssnatApiService {
 
   public getSubjectsByDeputyIds(ids: string[], pageNumber: number, pageSize: number): Observable<SujetReponse> {
     return this.httpClient.get<SujetReponse>(
-      `${environment.apiUrl}/sujets?page=${pageNumber}&taille=${pageSize}&deputeIds=${ids.join(',')}`,
+      `${environment.apiUrl}/fil?page=${pageNumber}&taille=${pageSize}&deputeIds=${ids.join(',')}`,
     );
   }
 
