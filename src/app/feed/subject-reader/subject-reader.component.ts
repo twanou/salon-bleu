@@ -23,7 +23,7 @@ export class SubjectReaderComponent {
   ngOnInit(): void {
     const ids = this.route.snapshot.paramMap.getAll('ids');
     this.isLoading = true;
-    this.assnatApi.getSubjects(ids).subscribe({
+    this.assnatApi.getSubjectsByIds(ids).subscribe({
       next: (response: SujetReponse) => {
         if (response.sujets.length === 0) {
           this.router.navigate(['fil']);

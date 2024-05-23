@@ -1,0 +1,28 @@
+<form>
+  <mat-form-field class="chip-list">
+    <mat-label>{{ label }}</mat-label>
+    <mat-chip-grid #chipGrid>
+      @for (selectedOption of selectedOptions; track selectedOption) {
+      <mat-chip-row (removed)="remove(selectedOption)">
+        {{ selectedOption.value }}
+        <button matChipRemove>
+          <mat-icon>cancel</mat-icon>
+        </button>
+      </mat-chip-row>
+      }
+    </mat-chip-grid>
+    <input
+      #input
+      [placeholder]="placeholder"
+      [formControl]="inputCtrl"
+      [matChipInputFor]="chipGrid"
+      [matAutocomplete]="auto"
+      (matChipInputTokenEnd)="add($event)"
+    />
+    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+      @for (option of options | async; track option) {
+      <mat-option [value]="option">{{ option.value }}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+</form>

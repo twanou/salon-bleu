@@ -1,0 +1,21 @@
+<sb-chip-input
+  (onChange)="onKeywordChange($event)"
+  [placeholder]="'search.input.keywords-placeholder' | translate"
+  [freeInput]="true"
+  [label]="'search.input.keywords' | translate"
+></sb-chip-input>
+<sb-chip-input
+  (onChange)="onDeputyChange($event)"
+  [autocompleteSource]="getDeputiesAutocompleteSource"
+  [label]="'search.input.deputies' | translate"
+></sb-chip-input>
+<sb-chip-input
+  (onChange)="onPartyChange($event)"
+  [autocompleteSource]="getPartiesAutocompleteSource"
+  [label]="'search.input.parties' | translate"
+></sb-chip-input>
+<sb-chip-input
+  (onChange)="onDistrictChange($event)"
+  [autocompleteSource]="getDistrictsAutocompleteSource"
+  [label]="'search.input.districts' | translate"
+></sb-chip-input>

@@ -11,9 +11,11 @@ import { SbCommonModule } from '../sb-common/sb-common.module';
 import { DeputyFeedComponent } from './deputy-feed/deputy-feed.component';
 import { SubjectCardComponent } from './subject-card/subject-card.component';
 import { SubjectReaderComponent } from './subject-reader/subject-reader.component';
+import { SearchFeedComponent } from './search-feed/search-feed.component';
+import { FeedPagerComponent } from './feed-pager/feed-pager.component';
 
 @NgModule({
-  declarations: [DeputyFeedComponent, SubjectCardComponent, SubjectReaderComponent],
+  declarations: [DeputyFeedComponent, SubjectCardComponent, SubjectReaderComponent, SearchFeedComponent, FeedPagerComponent],
   imports: [
     CommonModule,
     ApiModule,

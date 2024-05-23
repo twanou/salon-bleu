@@ -30,7 +30,7 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="isSidenavReady && (isSidenav$ | async) && !(isHandset$ | async)"
   >
-    <sb-deputy-list (isLoaded)="isSidenavReady = $event"></sb-deputy-list>
+    <sb-sidenav-tab-group (isLoaded)="isSidenavReady = $event"></sb-sidenav-tab-group>
   </mat-sidenav>
   <mat-sidenav-content id="sidenav-content">
     <router-outlet></router-outlet>
