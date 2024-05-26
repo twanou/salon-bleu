@@ -11,10 +11,12 @@
   >
   </sb-subject-card>
   <sb-spinner [isLoading]="isLoading">
-    <button *ngIf="hasMoreResults" (click)="loadMore()" class="feed-item" mat-fab extended color="primary">
-      <mat-icon>expand_more</mat-icon>
-      {{ 'feed.show-more' | translate }}
-    </button>
+    <div class="feed-item">
+      <button *ngIf="hasMoreResults" (click)="loadMore()" mat-fab extended color="primary">
+        <mat-icon>expand_more</mat-icon>
+        {{ 'feed.show-more' | translate }}
+      </button>
+    </div>
   </sb-spinner>
   <div class="feed-item" *ngIf="subjects.length > 0 && !hasMoreResults">{{ 'feed.no-more-results' | translate }}</div>
   <ng-container *ngIf="subjects.length === 0 && !isLoading && selectedDeputies.length === 0">
