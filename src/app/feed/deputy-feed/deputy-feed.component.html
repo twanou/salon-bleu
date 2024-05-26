@@ -1,5 +1,13 @@
 <sb-page-template [sidenav]="true">
-  <sb-subject-card *ngFor="let subject of subjects" class="feed-item" [subject]="subject" [lastUpdate]="lastUpdate">
+  <div *ngIf="subjects.length > 0" class="last-update">
+    <div>{{ 'feed.last-update' | translate : { date: appLastUpdate | sbdate } }}</div>
+  </div>
+  <sb-subject-card
+    *ngFor="let subject of subjects"
+    class="feed-item"
+    [subject]="subject"
+    [userLastUpdate]="userLastUpdate"
+  >
   </sb-subject-card>
   <sb-spinner [isLoading]="isLoading">
     <button *ngIf="hasMoreResults" (click)="loadMore()" class="feed-item" mat-fab extended color="primary">
