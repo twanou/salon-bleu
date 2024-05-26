@@ -4,21 +4,34 @@
     <mat-card-title class="title">{{ subject.details.titre }} </mat-card-title>
   </mat-card-header>
   <mat-card-content class="content">
-    <mat-accordion>
-      <mat-expansion-panel [expanded]="i === 0" *ngFor="let intervention of subject.details.interventions; index as i">
+    <mat-accordion multi>
+      <mat-expansion-panel
+        [expanded]="cardIndex === 0"
+        (opened)="onOpen(cardIndex)"
+        *ngFor="let intervention of subject.details.interventions; index as cardIndex"
+      >
         <mat-expansion-panel-header>
-          <mat-panel-title class="card-title">
+          <mat-panel-title class="panel-title">
             <sb-avatar [url]="intervention.affectation.photoUrl"></sb-avatar>
             {{ intervention.affectation.depute.titre }}
-            {{ intervention.affectation.depute.prenom }}
+            <span class="name-visible">&nbsp;{{ intervention.affectation.depute.prenom }}&nbsp;</span>
             {{ intervention.affectation.depute.nom }}
             ({{ intervention.affectation.parti.sigle }})
           </mat-panel-title>
         </mat-expansion-panel-header>
-        <p *ngIf="isFunctionVisible(i, intervention.affectation.depute.id)">
-          <i class="fonctions" *ngFor="let function of intervention.affectation.fonctions; let last = last"
-            >{{ function }} {{ !last ? ',' : '' }}
-          </i>
+        <p *ngIf="isFunctionVisible(cardIndex, intervention.affectation.depute.id)">
+          @for (function of intervention.affectation.fonctions | slice : 0 :
+          getFunctionsDisplayCount(intervention.affectation); track function; let last = $last) {
+          <i class="fonctions">{{ function }}{{ !last ? ', ' : '' }}</i>
+          }
+          <i *ngIf="isMoreVisible(intervention.affectation)" class="fonctions">... </i>
+          <span
+            *ngIf="isMoreVisible(intervention.affectation)"
+            role="button"
+            (click)="showMore(intervention.affectation.depute.id)"
+            class="show-more-button"
+            >{{ 'feed.show-more' | translate }}
+          </span>
         </p>
         <p *ngFor="let paragraph of intervention.paragraphes">{{ paragraph }}</p>
       </mat-expansion-panel>

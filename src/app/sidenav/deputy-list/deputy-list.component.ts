@@ -5,6 +5,7 @@ import { Affectation } from 'src/app/api/assnat/models/composition.interface';
 import { AffectationsReponse } from 'src/app/api/assnat/models/compositions-reponse.interface';
 import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
 import { SelectedDeputyService } from '../selected-deputy.service';
+import { Depute } from 'src/app/api/assnat/models/depute.interface';
 
 @Component({
   selector: 'sb-deputy-list',
@@ -46,5 +47,9 @@ export class DeputyListComponent implements OnInit {
 
   isDeputySelected(deputyId: string) {
     return this.selectedDeputies.has(deputyId);
+  }
+
+  formatName(deputy: Depute) {
+    return `${deputy.nom}, ${deputy.prenom}`;
   }
 }
