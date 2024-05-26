@@ -1,80 +1,38 @@
-import { Component, OnInit } from '@angular/core';
-import { Subject, Subscription, takeUntil } from 'rxjs';
+import { AfterViewInit, Component, OnDestroy, ViewChild } from '@angular/core';
+import { Subject, takeUntil } from 'rxjs';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
-import { SujetReponse } from 'src/app/api/assnat/models/sujet-reponse.interface';
-import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
-import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
-import { TemplateService } from 'src/app/sb-common/service/template-service.service';
 import { SelectedDeputyService } from 'src/app/sidenav/selected-deputy.service';
+import { FeedPagerComponent } from '../feed-pager/feed-pager.component';
 
 @Component({
   selector: 'sb-deputy-feed',
   templateUrl: './deputy-feed.component.html',
   styleUrls: ['./deputy-feed.component.scss'],
 })
-export class DeputyFeedComponent implements OnInit {
-  public subjects: Sujet[] = [];
+export class DeputyFeedComponent implements AfterViewInit, OnDestroy {
   public selectedDeputies: string[] = [];
-  public isLoading = false;
-  public hasMoreResults = false;
-  public userLastUpdate!: string;
-  public appLastUpdate!: string;
-  public nextUpdates: string[] = [];
-
+  public pageSize = 25;
   private destroy$ = new Subject<void>();
-  private subscription: Subscription | null = null;
-  private pageSize = 25;
-  private currentPage = 0;
-  private readonly STORAGE_NAME = 'last-update-v1';
 
-  constructor(
-    private assnatApi: AssnatApiService,
-    private selectedDeputyService: SelectedDeputyService,
-    private templateService: TemplateService,
-    private errorHandlerService: ErrorHandlerService,
-  ) {
-    this.userLastUpdate = localStorage.getItem(this.STORAGE_NAME) || '3000-01-01';
-  }
+  @ViewChild(FeedPagerComponent) feedPager!: FeedPagerComponent;
 
-  ngOnInit() {
+  constructor(private assnatApi: AssnatApiService, private selectedDeputyService: SelectedDeputyService) {}
+
+  ngAfterViewInit() {
     this.selectedDeputyService.selectedDeputies$.pipe(takeUntil(this.destroy$)).subscribe((ids: string[]) => {
       this.selectedDeputies = ids;
-      this.currentPage = 0;
-      this.subjects = [];
+      this.feedPager.reset();
       if (this.selectedDeputies.length > 0) {
-        this.load();
+        this.feedPager.load();
       }
     });
   }
 
-  load() {
-    this.isLoading = true;
-    this.subscription?.unsubscribe();
-    this.subscription = this.assnatApi
-      .getSubjectsByDeputyIds(this.selectedDeputies, this.currentPage++, this.pageSize)
-      .subscribe({
-        next: (response: SujetReponse) => {
-          this.appLastUpdate = response.derniereMaj;
-          this.nextUpdates = response.futuresMaj;
-          localStorage.setItem(this.STORAGE_NAME, response.derniereMaj);
-          this.hasMoreResults = response.sujets.length === this.pageSize;
-          this.subjects.push(...response.sujets);
-        },
-        error: (error) => {
-          this.errorHandlerService.handle(error);
-        },
-        complete: () => {
-          this.isLoading = false;
-        },
-      });
-  }
+  public getSubjectSource = (pageNumber: number) => {
+    return this.assnatApi.getSubjectsByDeputyIds(this.selectedDeputies, pageNumber, this.pageSize);
+  };
 
-  loadMore() {
-    this.templateService.requestScrollDown();
-    this.load();
-  }
-
-  ngOnDestroy() {
+  public ngOnDestroy(): void {
     this.destroy$.next();
   }
 }

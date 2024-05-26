@@ -1,0 +1,37 @@
+<sb-page-template [sidenav]="true">
+  <div *ngIf="subjects.length > 0" class="last-update">
+    <div>{{ 'feed.last-update' | translate : { date: appLastUpdate | sbdate } }}</div>
+    <div *ngIf="nextUpdates.length > 0">{{ 'feed.next-update' | translate : { date: nextUpdates | sbdate } }}</div>
+  </div>
+  <sb-subject-card
+    *ngFor="let subject of subjects"
+    class="feed-item"
+    [subject]="subject"
+    [userLastUpdate]="userLastUpdate"
+  >
+  </sb-subject-card>
+  <sb-spinner [isLoading]="isLoading">
+    <div class="feed-item">
+      <button *ngIf="hasMoreResults" (click)="loadMore()" mat-fab extended color="primary">
+        <mat-icon>expand_more</mat-icon>
+        {{ 'feed.show-more' | translate }}
+      </button>
+    </div>
+  </sb-spinner>
+  <div class="feed-item" *ngIf="subjects.length > 0 && !hasMoreResults">{{ 'feed.no-more-results' | translate }}</div>
+  <ng-container *ngIf="subjects.length === 0 && !isLoading && !isInitialized">
+    <mat-card class="feed-item">
+      <mat-card-header>
+        <mat-card-title>{{ 'app.welcome' | translate }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        {{ 'app.description' | translate }}
+      </mat-card-content>
+    </mat-card>
+  </ng-container>
+  <ng-container *ngIf="subjects.length === 0 && !isLoading && isInitialized">
+    <mat-card class="feed-item">
+      <mat-card-content>{{ 'feed.no-result' | translate }}</mat-card-content>
+    </mat-card>
+  </ng-container>
+</sb-page-template>

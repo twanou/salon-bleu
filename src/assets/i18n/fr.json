@@ -5,6 +5,7 @@
     "description": "Une application permettant de consulter les journaux des débats de l'Assemblée nationale du Québec."
   },
   "feed": {
+    "tab-title": "Fil",
     "no-result": "Aucun résultat",
     "no-more-results": "Aucun autre résultat",
     "show-more": "Afficher plus",
@@ -14,6 +15,16 @@
     "new": "Nouveau",
     "last-update": "Dernier journal disponible : {{date}}",
     "next-update": "À venir : {{date}}"
+  },
+  "search": {
+    "tab-title": "Recherche",
+    "input": {
+      "keywords": "Mots clés",
+      "keywords-placeholder": "phrase exacte ou mots clés",
+      "deputies": "Député(e)s",
+      "parties": "Partis",
+      "districts": "Circonscriptions"
+    }
   },
   "error": {
     "title": "Une erreur est survenue",

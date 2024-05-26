@@ -29,3 +29,13 @@ body {
 .mat-mdc-card-header-text {
   width: 100%;
 }
+
+.mdc-evolution-chip-set__chips {
+  max-width: 100% !important;
+}
+
+.mat-mdc-standard-chip .mdc-evolution-chip__cell--primary,
+.mat-mdc-standard-chip .mdc-evolution-chip__action--primary,
+.mat-mdc-standard-chip .mat-mdc-chip-action-label {
+  overflow: hidden !important;
+}
