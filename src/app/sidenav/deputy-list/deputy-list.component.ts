@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MatListOption } from '@angular/material/list';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
-import { SelectedDeputyService } from '../selected-deputy.service';
-import { AffectationsReponse } from 'src/app/api/assnat/models/compositions-reponse.interface';
 import { Affectation } from 'src/app/api/assnat/models/composition.interface';
+import { AffectationsReponse } from 'src/app/api/assnat/models/compositions-reponse.interface';
+import { SelectedDeputyService } from '../selected-deputy.service';
 
 @Component({
   selector: 'sb-deputy-list',
@@ -12,10 +12,14 @@ import { Affectation } from 'src/app/api/assnat/models/composition.interface';
 })
 export class DeputyListComponent implements OnInit {
   public assignments: Affectation[] = [];
+  private selectedDeputies: Set<string> = new Set<string>();
 
   constructor(private assnatApi: AssnatApiService, private selectedDeputyService: SelectedDeputyService) {}
 
   ngOnInit() {
+    const deputies: string[] = JSON.parse(localStorage.getItem('deputies') || '[]');
+    this.selectedDeputyService.setDeputies(deputies);
+    this.selectedDeputies = new Set<string>(deputies);
     this.assnatApi.getAssignments().subscribe({
       next: (response: AffectationsReponse) => {
         this.assignments = response.affectations;
@@ -25,6 +29,12 @@ export class DeputyListComponent implements OnInit {
   }
 
   onChange(options: MatListOption[]) {
-    this.selectedDeputyService.setDeputies(options.map((o) => o.value));
+    const deputies: string[] = options.map((o) => o.value);
+    localStorage.setItem('deputies', JSON.stringify(deputies));
+    this.selectedDeputyService.setDeputies(deputies);
+  }
+
+  isDeputySelected(deputyId: string) {
+    return this.selectedDeputies.has(deputyId);
   }
 }

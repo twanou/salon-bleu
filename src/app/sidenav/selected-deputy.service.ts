@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
-import { Depute } from '../api/assnat/models/depute.interface';
+import { ReplaySubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -8,10 +7,10 @@ import { Depute } from '../api/assnat/models/depute.interface';
 export class SelectedDeputyService {
   constructor() {}
 
-  private deputies$ = new BehaviorSubject<Depute[]>([]);
+  private deputies$ = new ReplaySubject<string[]>();
   selectedDeputies$ = this.deputies$.asObservable();
 
-  setDeputies(deputy: Depute[]) {
-    this.deputies$.next(deputy);
+  setDeputies(deputies: string[]) {
+    this.deputies$.next(deputies);
   }
 }
