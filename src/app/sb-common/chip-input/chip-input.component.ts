@@ -55,7 +55,7 @@ export class ChipInputComponent {
       const value = (event.value || '').trim();
       if (value) {
         if (value.indexOf(' ') >= 0 || this.isCurrentInputPhrase()) {
-          this.selectedOptions = [];
+          this.reset();
         }
         this.selectedOptions.push({ id: '', value: value });
         this.emitValues();
@@ -83,6 +83,10 @@ export class ChipInputComponent {
     }
     this.input.nativeElement.value = '';
     this.inputCtrl.setValue(null);
+  }
+
+  public reset(): void {
+    this.selectedOptions = [];
   }
 
   private emitValues(): void {

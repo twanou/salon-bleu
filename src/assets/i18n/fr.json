@@ -24,7 +24,8 @@
       "deputies": "Député(e)s",
       "parties": "Partis",
       "districts": "Circonscriptions"
-    }
+    },
+    "reset": "Réinitialiser"
   },
   "error": {
     "title": "Une erreur est survenue",

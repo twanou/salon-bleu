@@ -19,3 +19,9 @@
   [autocompleteSource]="getDistrictsAutocompleteSource"
   [label]="'search.input.districts' | translate"
 ></sb-chip-input>
+<div *ngIf="!currentSearchCriteria.isEmpty()" class="reset-button-container">
+  <button (click)="reset()" mat-fab extended color="primary">
+    <mat-icon>restart_alt</mat-icon>
+    {{ 'search.reset' | translate }}
+  </button>
+</div>

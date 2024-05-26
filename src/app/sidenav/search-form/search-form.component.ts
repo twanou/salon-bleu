@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, ViewChildren } from '@angular/core';
 import { map } from 'rxjs';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { SearchCriteria } from '../search-criteria-service/search-criteria.interface';
 import { SearchCriteriaService } from '../search-criteria-service/search-criteria.service';
+import { ChipInputComponent } from 'src/app/sb-common/chip-input/chip-input.component';
 
 @Component({
   selector: 'sb-search-form',
@@ -14,6 +15,9 @@ export class SearchFormComponent {
   private selectedDeputyIds: string[] = [];
   private selectedPartyIds: string[] = [];
   private selectedDistrictIds: string[] = [];
+  public currentSearchCriteria = new SearchCriteria();
+
+  @ViewChildren(ChipInputComponent) inputs!: ChipInputComponent[];
 
   constructor(private assnatApi: AssnatApiService, private searchCriteriaService: SearchCriteriaService) {}
 
@@ -47,30 +51,44 @@ export class SearchFormComponent {
 
   public onKeywordChange(keywords: string[]) {
     this.selectedKeywords = keywords;
-    this.setSearchCriteria();
+    this.setSearchCriterias();
   }
 
   public onDeputyChange(deputyIds: string[]) {
     this.selectedDeputyIds = deputyIds;
-    this.setSearchCriteria();
+    this.setSearchCriterias();
   }
 
   public onDistrictChange(districtIds: string[]) {
     this.selectedDistrictIds = districtIds;
-    this.setSearchCriteria();
+    this.setSearchCriterias();
   }
 
   public onPartyChange(partyIds: string[]) {
     this.selectedPartyIds = partyIds;
-    this.setSearchCriteria();
+    this.setSearchCriterias();
   }
 
-  private setSearchCriteria() {
+  public reset(): void {
+    this.inputs.forEach((i) => i.reset());
+    this.selectedKeywords = [];
+    this.selectedDeputyIds = [];
+    this.selectedPartyIds = [];
+    this.selectedDistrictIds = [];
+    this.setSearchCriterias();
+  }
+
+  private setSearchCriterias() {
     const phrase = this.isPhrase(this.selectedKeywords) ? this.selectedKeywords[0] : '';
     const keywords = this.isPhrase(this.selectedKeywords) ? [] : this.selectedKeywords;
-    this.searchCriteriaService.setSearchCriterias(
-      new SearchCriteria(phrase, keywords, this.selectedDeputyIds, this.selectedPartyIds, this.selectedDistrictIds),
+    this.currentSearchCriteria = new SearchCriteria(
+      phrase,
+      keywords,
+      this.selectedDeputyIds,
+      this.selectedPartyIds,
+      this.selectedDistrictIds,
     );
+    this.searchCriteriaService.setSearchCriterias(this.currentSearchCriteria);
   }
 
   private isPhrase(keywords: string[]): boolean {
