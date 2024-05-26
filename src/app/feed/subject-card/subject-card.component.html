@@ -1,30 +1,32 @@
 <mat-card>
   <mat-card-header>
-    <mat-card-subtitle>{{ subject?.date }}</mat-card-subtitle>
-    <mat-card-title class="title">{{ subject?.details?.titre }} </mat-card-title>
+    <mat-card-subtitle>{{ subject.date }}</mat-card-subtitle>
+    <mat-card-title class="title">{{ subject.details.titre }} </mat-card-title>
   </mat-card-header>
   <mat-card-content class="content">
     <mat-accordion>
-      <mat-expansion-panel [expanded]="i === 0" *ngFor="let intervention of subject?.details?.interventions; index as i">
+      <mat-expansion-panel [expanded]="i === 0" *ngFor="let intervention of subject.details.interventions; index as i">
         <mat-expansion-panel-header>
           <mat-panel-title class="card-title">
-            <div [style.backgroundImage]="'url(/assets/deputies/' + intervention?.depute?.id + '.jpg)'" class="avatar"></div>
-            {{ intervention?.depute?.titre }}
-            {{ intervention?.depute?.prenom }}
-            {{ intervention?.depute?.nom }}
-            ({{ intervention?.parti?.sigle }})
+            <div [style.backgroundImage]="'url(/assets/deputies/' + intervention.affectation.depute.id + '.jpg)'" class="avatar"></div>
+            {{ intervention.affectation.depute.titre }}
+            {{ intervention.affectation.depute.prenom }}
+            {{ intervention.affectation.depute.nom }}
+            ({{ intervention.affectation.parti.sigle }})
           </mat-panel-title>
-          <mat-panel-description> </mat-panel-description>
         </mat-expansion-panel-header>
+        <p *ngIf="isFunctionVisible(i, intervention.affectation.depute.id)">
+          <i class="fonctions" *ngFor="let function of intervention.affectation.fonctions">{{ function }}, </i>
+        </p>
         <p *ngFor="let paragraph of intervention.paragraphes">{{ paragraph }}</p>
       </mat-expansion-panel>
     </mat-accordion>
   </mat-card-content>
   <mat-card-actions class="action">
-    <button matTooltip="Copier le lien" mat-icon-button>
+    <button [cdkCopyToClipboard]="getDirectLink(subject.id)" matTooltip="Copier le lien" mat-icon-button>
       <mat-icon>link</mat-icon>
     </button>
-    <button matTooltip="Affichez sur le site web de l'assemblée nationale" mat-icon-button>
+    <button (click)="openAssnatLink(subject.url)" matTooltip="Affichez sur le site web de l'assemblée nationale" mat-icon-button>
       <mat-icon>open_in_new</mat-icon>
     </button>
   </mat-card-actions>

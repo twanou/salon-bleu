@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MatListOption } from '@angular/material/list';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
-import { Composition } from 'src/app/api/assnat/models/composition.interface';
-import { CompositionsReponse } from 'src/app/api/assnat/models/compositions-reponse.interface';
 import { SelectedDeputyService } from '../selected-deputy.service';
+import { AffectationsReponse } from 'src/app/api/assnat/models/compositions-reponse.interface';
+import { Affectation } from 'src/app/api/assnat/models/composition.interface';
 
 @Component({
   selector: 'sb-deputy-list',
@@ -11,14 +11,14 @@ import { SelectedDeputyService } from '../selected-deputy.service';
   styleUrls: ['./deputy-list.component.scss'],
 })
 export class DeputyListComponent implements OnInit {
-  public compositions: Composition[] = [];
+  public assignments: Affectation[] = [];
 
   constructor(private assnatApi: AssnatApiService, private selectedDeputyService: SelectedDeputyService) {}
 
   ngOnInit() {
-    this.assnatApi.getCompositions().subscribe({
-      next: (response: CompositionsReponse) => {
-        this.compositions = response.compositions;
+    this.assnatApi.getAssignments().subscribe({
+      next: (response: AffectationsReponse) => {
+        this.assignments = response.affectations;
       },
       error: () => {},
     });

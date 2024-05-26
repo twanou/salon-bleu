@@ -1,10 +1,6 @@
-import { Circonscription } from './circonscription.interface';
-import { Depute } from './depute.interface';
-import { Parti } from './parti.interface';
+import { Affectation } from './composition.interface';
 
 export interface Intervention {
-  depute: Depute;
-  circonscription: Circonscription;
-  parti: Parti;
+  affectation: Affectation;
   paragraphes: string[];
 }

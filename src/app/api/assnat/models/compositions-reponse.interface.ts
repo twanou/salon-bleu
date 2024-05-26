@@ -1,5 +1,5 @@
-import { Composition } from './composition.interface';
+import { Affectation } from './composition.interface';
 
-export interface CompositionsReponse {
-  compositions: Composition[];
+export interface AffectationsReponse {
+  affectations: Affectation[];
 }
