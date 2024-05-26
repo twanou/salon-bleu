@@ -20,5 +20,5 @@ export class AssnatApiService {
 
   public getAssignments(): Observable<AffectationsReponse> {
     return this.httpClient.get<AffectationsReponse>('http://localhost:8080/api/v1/affectations');
-  }
+   }
 }
