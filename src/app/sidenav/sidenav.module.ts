@@ -7,10 +7,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
+import { SbCommonModule } from '../sb-common/sb-common.module';
 
 @NgModule({
   declarations: [DeputyListComponent],
-  imports: [CommonModule, MatListModule, ApiModule, MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule],
+  imports: [CommonModule, MatListModule, ApiModule, MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, SbCommonModule],
   exports: [DeputyListComponent],
 })
 export class SidenavModule {}

@@ -3,7 +3,7 @@
 }
 
 .sidenav {
-  width: 325px;
+  width: 350px;
 }
 
 .mat-toolbar {
@@ -19,4 +19,30 @@
   .filler {
     padding-top: var(--mat-toolbar-mobile-height);
   }
+}
+
+.logo {
+  width: 28px;
+  margin-right: 1rem;
+}
+
+.right-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app-title {
+  font-size: 1.5rem;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.home-link {
+  box-shadow: none !important;
+  border-radius: 0.5rem !important;
+  padding: 0rem !important;
 }
