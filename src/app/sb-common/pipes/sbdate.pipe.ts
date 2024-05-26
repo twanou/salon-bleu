@@ -20,13 +20,13 @@ export class SbdatePipe implements PipeTransform {
     'décembre',
   ];
 
-  transform(value: Date | string): string {
-    const date: Date = typeof value === 'string' ? new Date(value) : value;
+  transform(value: string): string {
+    const date = new Date(value);
     return `${this.getDate(date)} ${this.getMonth(date)} ${date.getUTCFullYear()}`;
   }
 
   private getDate(date: Date): string {
-    return `${date.getUTCDate()}${date.getUTCDate() === 0 ? 'er' : ''}`;
+    return `${date.getUTCDate()}${date.getUTCDate() === 1 ? 'er' : ''}`;
   }
 
   private getMonth(date: Date): string {

@@ -15,7 +15,7 @@ export class SubjectCardComponent implements AfterViewInit {
   public subject!: Sujet;
 
   @Input()
-  public userLastUpdate = new Date('3000-01-01');
+  public userLastUpdate = '3000-01-01';
 
   @ViewChildren(MatExpansionPanel) panelsQueryList!: QueryList<MatExpansionPanel>;
 
@@ -90,6 +90,6 @@ export class SubjectCardComponent implements AfterViewInit {
   }
 
   isNew(subjectLastUpdate: string) {
-    return new Date(subjectLastUpdate).getTime() > this.userLastUpdate.getTime();
+    return new Date(subjectLastUpdate).getTime() > new Date(this.userLastUpdate).getTime();
   }
 }
