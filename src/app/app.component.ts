@@ -1,5 +1,5 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { AfterViewChecked, ChangeDetectorRef, Component } from '@angular/core';
+import { AfterViewChecked, ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
@@ -10,7 +10,7 @@ import { TemplateService } from './sb-common/service/template-service.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements AfterViewChecked {
+export class AppComponent implements OnInit, AfterViewChecked {
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     map((result) => result.matches),
     shareReplay(),
@@ -32,7 +32,18 @@ export class AppComponent implements AfterViewChecked {
     this.translate.use('fr');
   }
 
+  ngOnInit() {
+    this.templateService.scrollDownEvent$.subscribe(() => this.scrollDown());
+  }
+
   ngAfterViewChecked() {
     this.cdr.detectChanges();
+  }
+
+  private scrollDown() {
+    setTimeout(() => {
+      const element = document.querySelector('#sidenav-content');
+      element?.scrollTo({ top: element.scrollHeight, behavior: 'smooth' });
+    }, 0);
   }
 }

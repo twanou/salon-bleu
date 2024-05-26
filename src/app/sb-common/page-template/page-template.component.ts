@@ -1,7 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { TemplateService } from '../service/template-service.service';
-import { Subject, takeUntil } from 'rxjs';
-import { TemplateConfig } from '../service/template-config.interface';
 
 @Component({
   selector: 'sb-page-template',
