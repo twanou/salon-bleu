@@ -21,9 +21,9 @@
     #drawer
     class="sidenav filler"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
-    [opened]="(isSidenav$ | async) && (isHandset$ | async) === false"
+    [opened]="isSidenavReady && (isSidenav$ | async) && (isHandset$ | async) === false"
   >
-    <sb-deputy-list></sb-deputy-list>
+    <sb-deputy-list (isLoaded)="isSidenavReady = $event"></sb-deputy-list>
   </mat-sidenav>
   <mat-sidenav-content id="sidenav-content">
     <router-outlet></router-outlet>

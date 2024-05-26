@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { MatListOption } from '@angular/material/list';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { Affectation } from 'src/app/api/assnat/models/composition.interface';
@@ -12,6 +12,8 @@ import { SelectedDeputyService } from '../selected-deputy.service';
   styleUrls: ['./deputy-list.component.scss'],
 })
 export class DeputyListComponent implements OnInit {
+  @Output() isLoaded = new EventEmitter<boolean>();
+
   public assignments: Affectation[] = [];
   private selectedDeputies: Set<string> = new Set<string>();
 
@@ -27,10 +29,8 @@ export class DeputyListComponent implements OnInit {
     this.selectedDeputies = new Set<string>(deputies);
     this.assnatApi.getAssignments().subscribe({
       next: (response: AffectationsReponse) => {
-        if (response.affectations.length === 0) {
-          this.errorHandlerService.handle();
-        }
         this.assignments = response.affectations;
+        this.isLoaded.emit(true);
       },
       error: (error) => {
         this.errorHandlerService.handle(error);

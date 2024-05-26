@@ -21,6 +21,8 @@ export class AppComponent implements OnInit, AfterViewChecked {
     shareReplay(),
   );
 
+  isSidenavReady = false;
+
   constructor(
     private translate: TranslateService,
     private breakpointObserver: BreakpointObserver,
