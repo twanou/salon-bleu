@@ -1,9 +1,9 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { AfterViewChecked, AfterViewInit, ChangeDetectorRef, Component, inject } from '@angular/core';
-import { Observable, Subject } from 'rxjs';
-import { map, shareReplay, takeUntil } from 'rxjs/operators';
+import { AfterViewChecked, ChangeDetectorRef, Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Observable } from 'rxjs';
+import { map, shareReplay } from 'rxjs/operators';
 import { TemplateService } from './sb-common/service/template-service.service';
-import { TemplateConfig } from './sb-common/service/template-config.interface';
 
 @Component({
   selector: 'app-root',
@@ -22,10 +22,15 @@ export class AppComponent implements AfterViewChecked {
   );
 
   constructor(
+    private translate: TranslateService,
     private breakpointObserver: BreakpointObserver,
     private templateService: TemplateService,
     private cdr: ChangeDetectorRef,
-  ) {}
+  ) {
+    this.translate.addLangs(['fr']);
+    this.translate.setDefaultLang('fr');
+    this.translate.use('fr');
+  }
 
   ngAfterViewChecked() {
     this.cdr.detectChanges();
