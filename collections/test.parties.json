@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "63ad159b7786c65bad6bff66"
+  },
+  "name": "Coalition avenir Québec",
+  "acronym": "CAQ"
+},
+{
+  "_id": {
+    "$oid": "63ad159b7786c65bad6bff6a"
+  },
+  "name": "Parti québécois",
+  "acronym": "PQ"
+},
+{
+  "_id": {
+    "$oid": "63ad159b7786c65bad6bff6d"
+  },
+  "name": "Parti libéral du Québec",
+  "acronym": "PLQ"
+},
+{
+  "_id": {
+    "$oid": "63ad159b7786c65bad6bff78"
+  },
+  "name": "Québec solidaire",
+  "acronym": "QS"
+},
+{
+  "_id": {
+    "$oid": "63b5c706bbbb505b9d3986c8"
+  },
+  "name": "Indépendant(e)",
+  "acronym": "Ind."
+}]

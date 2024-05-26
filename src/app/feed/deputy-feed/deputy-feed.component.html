@@ -1,0 +1,20 @@
+<div style="padding: 1rem">
+  <sb-spinner [isLoading]="isLoading">
+    <sb-subject-card *ngFor="let subject of subjects" class="card" [subject]="subject"></sb-subject-card>
+  </sb-spinner>
+  <ng-container *ngIf="subjects.length === 0 && !isLoading && selectedDeputiesCount === 0">
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Le Salon bleu, qu'est-ce que c'est?</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        Une application permettant de consulter les journaux des débats de l'assemblée nationnale du Québec.
+      </mat-card-content>
+    </mat-card>
+  </ng-container>
+  <ng-container *ngIf="subjects.length === 0 && !isLoading && selectedDeputiesCount >= 1">
+    <mat-card class="card">
+      <mat-card-content> Aucun résulat. </mat-card-content>
+    </mat-card>
+  </ng-container>
+</div>
