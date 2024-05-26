@@ -62,6 +62,7 @@ export class SearchFormComponent {
 
   public onPartyChange(partyIds: string[]) {
     this.selectedPartyIds = partyIds;
+    this.setSearchCriteria();
   }
 
   private setSearchCriteria() {
