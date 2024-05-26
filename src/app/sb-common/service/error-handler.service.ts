@@ -1,0 +1,13 @@
+import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class ErrorHandlerService {
+  constructor(private router: Router) {}
+
+  public handle(error: any = null) {
+    this.router.navigate(['/erreur']);
+  }
+}
