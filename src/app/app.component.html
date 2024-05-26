@@ -2,6 +2,9 @@
   <button type="button" mat-icon-button (click)="drawer.toggle()" *ngIf="(isSidenav$ | async) && (isHandset$ | async)">
     <mat-icon>menu</mat-icon>
   </button>
+  <button type="button" class="hidden" *ngIf="!(isSidenav$ | async) && (isHandset$ | async)" mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
 
   <a
     class="home-link"
