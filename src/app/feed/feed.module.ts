@@ -25,6 +25,6 @@ import { SubjectReaderComponent } from './subject-reader/subject-reader.componen
     SbCommonModule,
     ClipboardModule,
   ],
-  exports: [DeputyFeedComponent],
+  exports: [],
 })
 export class FeedModule {}

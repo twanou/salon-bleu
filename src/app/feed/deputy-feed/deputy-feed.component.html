@@ -1,5 +1,6 @@
 <sb-page-template [sidenav]="true">
-  <sb-subject-card *ngFor="let subject of subjects" class="feed-item" [subject]="subject"></sb-subject-card>
+  <sb-subject-card *ngFor="let subject of subjects" class="feed-item" [subject]="subject" [lastUpdate]="lastUpdate">
+  </sb-subject-card>
   <sb-spinner [isLoading]="isLoading">
     <button *ngIf="hasMoreResults" (click)="loadMore()" class="feed-item" mat-fab extended color="primary">
       <mat-icon>expand_more</mat-icon>

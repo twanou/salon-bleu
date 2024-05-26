@@ -14,6 +14,9 @@ export class SubjectCardComponent implements AfterViewInit {
   @Input()
   public subject!: Sujet;
 
+  @Input()
+  public lastUpdate!: Date;
+
   @ViewChildren(MatExpansionPanel) panelsQueryList!: QueryList<MatExpansionPanel>;
 
   private appearances: Map<string, number> = new Map<string, number>();
@@ -84,5 +87,9 @@ export class SubjectCardComponent implements AfterViewInit {
         inline: 'nearest',
       });
     }
+  }
+
+  isNew(subjectLastUpdate: string) {
+    return new Date(subjectLastUpdate).getTime() > this.lastUpdate.getTime();
   }
 }

@@ -34,3 +34,10 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}

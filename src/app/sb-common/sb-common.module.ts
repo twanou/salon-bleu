@@ -6,11 +6,19 @@ import { TranslateModule } from '@ngx-translate/core';
 import { AvatarComponent } from './avatar/avatar.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { PageTemplateComponent } from './page-template/page-template.component';
+import { PillComponent } from './pill/pill.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 
 @NgModule({
-  declarations: [SpinnerComponent, AvatarComponent, PageTemplateComponent, ErrorPageComponent],
+  declarations: [SpinnerComponent, AvatarComponent, PageTemplateComponent, ErrorPageComponent, PillComponent],
   imports: [CommonModule, MatProgressSpinnerModule, MatCardModule, TranslateModule],
-  exports: [SpinnerComponent, AvatarComponent, PageTemplateComponent, TranslateModule, ErrorPageComponent],
+  exports: [
+    SpinnerComponent,
+    AvatarComponent,
+    PageTemplateComponent,
+    TranslateModule,
+    ErrorPageComponent,
+    PillComponent,
+  ],
 })
 export class SbCommonModule {}
