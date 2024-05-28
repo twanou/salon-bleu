@@ -1,9 +1,7 @@
 import { Component, EventEmitter, OnDestroy, OnInit, Output } from '@angular/core';
 import { MatTabChangeEvent } from '@angular/material/tabs';
 import { Router } from '@angular/router';
-import { Subject, takeUntil } from 'rxjs';
-import { SearchCriteria } from '../search-criteria-service/search-criteria.interface';
-import { SearchCriteriaService } from '../search-criteria-service/search-criteria.service';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'sb-sidenav-tab-group',
@@ -16,27 +14,13 @@ export class SidenavTabGroupComponent implements OnInit, OnDestroy {
 
   private route: string[] = ['/fil', '/recherche'];
   private destroy$ = new Subject<void>();
-  private isSearchCriteriaEmpty: boolean = true;
 
-  constructor(private router: Router, private searchCriteriaService: SearchCriteriaService) {}
+  constructor(private router: Router) {}
 
-  ngOnInit(): void {
-    this.searchCriteriaService.searchCriterias$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe((searchCriteria: SearchCriteria) => {
-        this.isSearchCriteriaEmpty = searchCriteria.isEmpty();
-        if (!this.isSearchCriteriaEmpty) {
-          this.router.navigate([this.route[1]]);
-        }
-      });
-  }
+  ngOnInit(): void {}
 
   selectedTabChange(event: MatTabChangeEvent) {
-    if (event.index === 1 && !this.isSearchCriteriaEmpty) {
-      this.router.navigate([this.route[1]]);
-    } else if (event.index !== 1) {
-      this.router.navigate([this.route[event.index]]);
-    }
+    this.router.navigate([this.route[event.index]]);
   }
 
   getSelectedIndex() {

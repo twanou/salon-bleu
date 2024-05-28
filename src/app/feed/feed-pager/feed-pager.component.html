@@ -20,14 +20,9 @@
   </sb-spinner>
   <div class="feed-item" *ngIf="subjects.length > 0 && !hasMoreResults">{{ 'feed.no-more-results' | translate }}</div>
   <ng-container *ngIf="subjects.length === 0 && !isLoading && !isInitialized">
-    <mat-card class="feed-item">
-      <mat-card-header>
-        <mat-card-title>{{ 'app.welcome' | translate }}</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        {{ 'app.description' | translate }}
-      </mat-card-content>
-    </mat-card>
+    <div class="feed-item">
+      <ng-content></ng-content>
+    </div>
   </ng-container>
   <ng-container *ngIf="subjects.length === 0 && !isLoading && isInitialized">
     <mat-card class="feed-item">

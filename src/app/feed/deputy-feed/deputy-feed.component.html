@@ -1,1 +1,20 @@
-<sb-feed-pager [pageSize]="pageSize" [subjectSource]="getSubjectSource"></sb-feed-pager>
+<sb-feed-pager [pageSize]="pageSize" [subjectSource]="getSubjectSource">
+  <mat-card>
+    <mat-card-header class="feed-item">
+      <mat-card-title>{{ 'app.welcome' | translate }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{ 'app.description' | translate }}</p>
+      <p>{{ 'app.information' | translate }}</p>
+      <ul>
+        <li>
+          {{ 'app.affaires-courantes' | translate }}
+          <ul>
+            <li>{{ 'app.declarations-deputes' | translate }}</li>
+            <li>{{ 'app.questions-reponses' | translate }}</li>
+          </ul>
+        </li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+</sb-feed-pager>
