@@ -1,9 +1,11 @@
 import { Component, ViewChildren } from '@angular/core';
-import { map } from 'rxjs';
+import { map, Observable, of } from 'rxjs';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
+import { ChipInputComponent } from 'src/app/sb-common/chip-input/chip-input.component';
+import { Option } from 'src/app/sb-common/chip-input/option.interface';
+import { MultiSelectComponent } from 'src/app/sb-common/multi-select/multi-select.component';
 import { SearchCriteria } from '../search-criteria-service/search-criteria.interface';
 import { SearchCriteriaService } from '../search-criteria-service/search-criteria.service';
-import { ChipInputComponent } from 'src/app/sb-common/chip-input/chip-input.component';
 
 @Component({
   selector: 'sb-search-form',
@@ -15,11 +17,22 @@ export class SearchFormComponent {
   private selectedDeputyIds: string[] = [];
   private selectedPartyIds: string[] = [];
   private selectedDistrictIds: string[] = [];
+  private selectedSubjectTypes: string[] = [];
+  public subjectTypes$: Observable<Option[]> = of([]);
   public currentSearchCriteria = new SearchCriteria();
 
   @ViewChildren(ChipInputComponent) inputs!: ChipInputComponent[];
-
-  constructor(private assnatApi: AssnatApiService, private searchCriteriaService: SearchCriteriaService) {}
+  @ViewChildren(MultiSelectComponent) selects!: MultiSelectComponent[];
+  constructor(private assnatApi: AssnatApiService, private searchCriteriaService: SearchCriteriaService) {
+    this.subjectTypes$ = this.assnatApi.getSubjectTypes().pipe(
+      map((response) =>
+        response.types.map((typeDescription) => ({
+          id: typeDescription.type,
+          value: typeDescription.description,
+        })),
+      ),
+    );
+  }
 
   public getDeputiesAutocompleteSource = (name: string) => {
     return this.assnatApi
@@ -69,12 +82,19 @@ export class SearchFormComponent {
     this.setSearchCriterias();
   }
 
+  public onSubjectTypeChange(subjectTypes: string[]) {
+    this.selectedSubjectTypes = subjectTypes;
+    this.setSearchCriterias();
+  }
+
   public reset(): void {
     this.inputs.forEach((i) => i.reset());
+    this.selects.forEach((i) => i.reset());
     this.selectedKeywords = [];
     this.selectedDeputyIds = [];
     this.selectedPartyIds = [];
     this.selectedDistrictIds = [];
+    this.selectedSubjectTypes = [];
     this.setSearchCriterias();
   }
 
@@ -87,6 +107,7 @@ export class SearchFormComponent {
       this.selectedDeputyIds,
       this.selectedPartyIds,
       this.selectedDistrictIds,
+      this.selectedSubjectTypes,
     );
     this.searchCriteriaService.setSearchCriterias(this.currentSearchCriteria);
   }

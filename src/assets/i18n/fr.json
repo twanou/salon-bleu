@@ -28,7 +28,8 @@
       "keywords-placeholder": "phrase exacte ou mots clés",
       "deputies": "Député(e)s",
       "parties": "Partis",
-      "districts": "Circonscriptions"
+      "districts": "Circonscriptions",
+      "types": "Catégories"
     },
     "reset": "Réinitialiser"
   },

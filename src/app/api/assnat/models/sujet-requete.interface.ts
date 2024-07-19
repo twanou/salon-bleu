@@ -4,6 +4,7 @@ export interface SujetRequete {
   deputeIds: string[];
   partiIds: string[];
   circonscriptionIds: string[];
+  sujetTypes: string[];
   page: number;
   taille: number;
 }

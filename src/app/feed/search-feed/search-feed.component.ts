@@ -38,6 +38,7 @@ export class SearchFeedComponent implements AfterViewInit, OnDestroy {
       this.searchCriteria.deputyIds,
       this.searchCriteria.districtIds,
       this.searchCriteria.partyIds,
+      this.searchCriteria.subjectTypes,
       pageNumber,
       this.pageSize,
     );

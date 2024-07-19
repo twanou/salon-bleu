@@ -8,6 +8,7 @@ import { DeputeReponse } from './models/depute-reponse.interface';
 import { PartiReponse } from './models/parti-reponse.interface';
 import { SujetReponse } from './models/sujet-reponse.interface';
 import { SujetRequete } from './models/sujet-requete.interface';
+import { SujetTypeReponse } from './models/sujet-type-reponse.interface';
 
 @Injectable({
   providedIn: 'root',
@@ -27,6 +28,7 @@ export class AssnatApiService {
     deputyIds: string[],
     districtIds: string[],
     partyIds: string[],
+    subjectTypes: string[],
     pageNumber: number,
     pageSize: number,
   ): Observable<SujetReponse> {
@@ -36,6 +38,7 @@ export class AssnatApiService {
       deputeIds: deputyIds,
       circonscriptionIds: districtIds,
       partiIds: partyIds,
+      sujetTypes: subjectTypes,
       page: pageNumber,
       taille: pageSize,
     };
@@ -60,5 +63,9 @@ export class AssnatApiService {
 
   public getDistrictsByName(name: string): Observable<CirconscriptionReponse> {
     return this.httpClient.get<CirconscriptionReponse>(`${environment.apiUrl}/circonscriptions?nom=${name}`);
+  }
+
+  public getSubjectTypes(): Observable<SujetTypeReponse> {
+    return this.httpClient.get<SujetTypeReponse>(`${environment.apiUrl}/types`);
   }
 }

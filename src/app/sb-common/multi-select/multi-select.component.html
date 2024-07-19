@@ -1,0 +1,10 @@
+<form>
+  <mat-form-field class="form-field">
+    <mat-label>{{ label }}</mat-label>
+    <mat-select (selectionChange)="onSelectChange($event)" [formControl]="inputCtrl" multiple>
+      @for (option of (source$ | async); track option) {
+      <mat-option [value]="option.id">{{ option.value }}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+</form>

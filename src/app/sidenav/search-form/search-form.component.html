@@ -19,6 +19,11 @@
   [autocompleteSource]="getDistrictsAutocompleteSource"
   [label]="'search.input.districts' | translate"
 ></sb-chip-input>
+<sb-multi-select
+  [label]="'search.input.types' | translate"
+  [source$]="subjectTypes$"
+  (onChange)="onSubjectTypeChange($event)"
+></sb-multi-select>
 <div *ngIf="!currentSearchCriteria.isEmpty()" class="reset-button-container">
   <button (click)="reset()" mat-fab extended color="primary">
     <mat-icon>restart_alt</mat-icon>

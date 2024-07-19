@@ -5,6 +5,7 @@ export class SearchCriteria {
     public deputyIds: string[] = [],
     public partyIds: string[] = [],
     public districtIds: string[] = [],
+    public subjectTypes: string[] = [],
   ) {}
 
   isEmpty(): boolean {
@@ -13,6 +14,7 @@ export class SearchCriteria {
       this.keywords.length === 0 &&
       this.districtIds.length === 0 &&
       this.partyIds.length === 0 &&
+      this.subjectTypes.length === 0 &&
       this.phrase === ''
     );
   }

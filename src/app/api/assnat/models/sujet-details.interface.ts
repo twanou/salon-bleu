@@ -1,8 +1,7 @@
 import { Intervention } from './intervention.interface';
-import { SujetType } from './sujet-type.enum';
 
 export interface SujetDetails {
-  type: SujetType;
+  type: string;
   titre: string;
   interventions: Intervention[];
 }

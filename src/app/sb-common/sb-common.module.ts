@@ -7,10 +7,12 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSelectModule } from '@angular/material/select';
 import { TranslateModule } from '@ngx-translate/core';
 import { AvatarComponent } from './avatar/avatar.component';
 import { ChipInputComponent } from './chip-input/chip-input.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { MultiSelectComponent } from './multi-select/multi-select.component';
 import { PageTemplateComponent } from './page-template/page-template.component';
 import { PillComponent } from './pill/pill.component';
 import { SbdatePipe } from './pipes/sbdate.pipe';
@@ -25,6 +27,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
     PillComponent,
     SbdatePipe,
     ChipInputComponent,
+    MultiSelectComponent,
   ],
   imports: [
     CommonModule,
@@ -38,6 +41,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
     ReactiveFormsModule,
     MatIconModule,
     MatAutocompleteModule,
+    MatSelectModule,
   ],
   exports: [
     SpinnerComponent,
@@ -48,6 +52,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
     PillComponent,
     SbdatePipe,
     ChipInputComponent,
+    MultiSelectComponent,
   ],
 })
 export class SbCommonModule {}
