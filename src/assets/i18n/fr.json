@@ -6,9 +6,9 @@
     "description": "Une application permettant de consulter les journaux des débats de l'Assemblée nationale du Québec.",
     "information": "Types de journaux disponibles :",
     "affaires-courantes": "Affaires courantes",
-    "declarations-deputes": "Déclarations de députés (15 février 2024)",
-    "questions-reponses": "Questions et réponses orales (15 février 2024)",
-    "depot-petitions": "Dépôt de pétitions (22 mai 2024)"
+    "declarations-deputes": "Déclarations de députés (15-02-2024)",
+    "questions-reponses": "Questions et réponses orales (15-02-2024)",
+    "depot-petitions": "Dépôt de pétitions (22-05-2024)"
   },
   "feed": {
     "tab-title": "Fil",

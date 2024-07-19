@@ -29,7 +29,7 @@
 
 <mat-sidenav-container class="sidenav-container filler">
   <mat-sidenav
-    disableClose
+    [disableClose]="!(isHandset$ | async)"
     #drawer
     class="sidenav filler"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
