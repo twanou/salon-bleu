@@ -14,11 +14,18 @@ export class TemplateService {
   private scrollDown$ = new Subject<boolean>();
   scrollDownEvent$ = this.scrollDown$.asObservable();
 
+  private closeSidenav$ = new Subject<boolean>();
+  closeSidenavEvent$ = this.closeSidenav$.asObservable();
+
   setConfig(config: TemplateConfig) {
     this.config$.next(config);
   }
 
   requestScrollDown() {
     this.scrollDown$.next(true);
+  }
+
+  closeSidenav() {
+    this.closeSidenav$.next(true);
   }
 }

@@ -25,8 +25,10 @@
   (onChange)="onSubjectTypeChange($event)"
 ></sb-multi-select>
 <div *ngIf="!currentSearchCriteria.isEmpty()" class="reset-button-container">
-  <button (click)="reset()" mat-fab extended color="primary">
-    <mat-icon>restart_alt</mat-icon>
+  <button *ngIf="isHandset$ | async" (click)="closeSidenav()" mat-fab extended color="primary">
+    {{ 'search.see-result' | translate }}
+  </button>
+  <button (click)="reset()" mat-button color="primary">
     {{ 'search.reset' | translate }}
   </button>
 </div>

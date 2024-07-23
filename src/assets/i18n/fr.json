@@ -32,7 +32,8 @@
       "districts": "Circonscriptions",
       "types": "Catégories"
     },
-    "reset": "Réinitialiser"
+    "reset": "Réinitialiser",
+    "see-result": "Voir les résultats"
   },
   "error": {
     "title": "Une erreur est survenue",

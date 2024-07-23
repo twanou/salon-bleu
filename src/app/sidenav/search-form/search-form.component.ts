@@ -1,9 +1,11 @@
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, ViewChildren } from '@angular/core';
-import { map, Observable, of } from 'rxjs';
+import { map, Observable, of, shareReplay } from 'rxjs';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { ChipInputComponent } from 'src/app/sb-common/chip-input/chip-input.component';
 import { Option } from 'src/app/sb-common/chip-input/option.interface';
 import { MultiSelectComponent } from 'src/app/sb-common/multi-select/multi-select.component';
+import { TemplateService } from 'src/app/sb-common/service/template-service.service';
 import { SearchCriteria } from '../search-criteria-service/search-criteria.interface';
 import { SearchCriteriaService } from '../search-criteria-service/search-criteria.service';
 
@@ -21,9 +23,22 @@ export class SearchFormComponent {
   public subjectTypes$: Observable<Option[]> = of([]);
   public currentSearchCriteria = new SearchCriteria();
 
+  isHandset$: Observable<boolean> = this.breakpointObserver
+    .observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Medium])
+    .pipe(
+      map((result) => result.matches),
+      shareReplay(),
+    );
+
   @ViewChildren(ChipInputComponent) inputs!: ChipInputComponent[];
   @ViewChildren(MultiSelectComponent) selects!: MultiSelectComponent[];
-  constructor(private assnatApi: AssnatApiService, private searchCriteriaService: SearchCriteriaService) {
+
+  constructor(
+    private assnatApi: AssnatApiService,
+    private breakpointObserver: BreakpointObserver,
+    private searchCriteriaService: SearchCriteriaService,
+    private templateService: TemplateService,
+  ) {
     this.subjectTypes$ = this.assnatApi.getSubjectTypes().pipe(
       map((response) =>
         response.types.map((typeDescription) => ({
@@ -96,6 +111,10 @@ export class SearchFormComponent {
     this.selectedDistrictIds = [];
     this.selectedSubjectTypes = [];
     this.setSearchCriterias();
+  }
+
+  public closeSidenav(): void {
+    this.templateService.closeSidenav();
   }
 
   private setSearchCriterias() {

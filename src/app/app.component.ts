@@ -1,5 +1,6 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { AfterViewChecked, ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { AfterViewChecked, ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
+import { MatSidenav } from '@angular/material/sidenav';
 import { TranslateService } from '@ngx-translate/core';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
@@ -11,6 +12,9 @@ import { TemplateService } from './sb-common/service/template-service.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit, AfterViewChecked {
+  @ViewChild(MatSidenav)
+  sidenav!: MatSidenav;
+
   isHandset$: Observable<boolean> = this.breakpointObserver
     .observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Medium])
     .pipe(
@@ -38,6 +42,7 @@ export class AppComponent implements OnInit, AfterViewChecked {
 
   ngOnInit() {
     this.templateService.scrollDownEvent$.subscribe(() => this.scrollDown());
+    this.templateService.closeSidenavEvent$.subscribe(() => this.sidenav.close());
   }
 
   ngAfterViewChecked() {
