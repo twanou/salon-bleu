@@ -1,7 +1,12 @@
 <sb-page-template [sidenav]="true">
   <div *ngIf="subjects.length > 0" class="last-update">
     <div>{{ 'feed.last-update' | translate : { date: appLastUpdate | sbdate } }}</div>
-    <div *ngIf="nextUpdates.length > 0">{{ 'feed.next-update' | translate : { date: nextUpdates | sbdate } }}</div>
+    <div *ngIf="nextUpdates.length > 0 && currentlyLoading.length === 0">
+      {{ 'feed.next-update' | translate : { date: nextUpdates | sbdate } }}
+    </div>
+    <div *ngIf="currentlyLoading.length > 0">
+      {{ 'feed.currently-loading' | translate : { date: currentlyLoading | sbdate } }}
+    </div>
   </div>
   <sb-subject-card
     *ngFor="let subject of subjects"

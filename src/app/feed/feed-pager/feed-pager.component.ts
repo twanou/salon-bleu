@@ -22,6 +22,7 @@ export class FeedPagerComponent implements OnInit, OnDestroy {
   public userLastUpdate!: string;
   public appLastUpdate!: string;
   public nextUpdates: string[] = [];
+  public currentlyLoading: string[] = [];
   public isInitialized = false;
 
   private destroy$ = new Subject<void>();
@@ -43,6 +44,7 @@ export class FeedPagerComponent implements OnInit, OnDestroy {
         this.isInitialized = true;
         this.appLastUpdate = response.derniereMaj;
         this.nextUpdates = response.futuresMaj;
+        this.currentlyLoading = response.chargementEnCours;
         localStorage.setItem(this.STORAGE_NAME, response.derniereMaj);
         this.hasMoreResults = response.sujets.length === this.pageSize;
         this.subjects.push(...response.sujets);

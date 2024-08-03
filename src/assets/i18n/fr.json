@@ -20,7 +20,8 @@
     "ref-assnat": "Afficher sur le site web de l'Assemblée nationale",
     "new": "Nouveau",
     "last-update": "Dernier journal disponible : {{date}}",
-    "next-update": "À venir : {{date}}"
+    "next-update": "À venir : {{date}}",
+    "currently-loading": "En cours de chargement : {{date}}"
   },
   "search": {
     "tab-title": "Recherche",
