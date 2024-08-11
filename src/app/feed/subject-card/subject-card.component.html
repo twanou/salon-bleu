@@ -15,27 +15,37 @@
       >
         <mat-expansion-panel-header>
           <mat-panel-title class="panel-title">
-            <sb-avatar [url]="intervention.affectation.photoUrl"></sb-avatar>
-            {{ intervention.affectation.depute.titre }}
-            <span class="name-visible">&nbsp;{{ intervention.affectation.depute.prenom }}&nbsp;</span>
-            {{ intervention.affectation.depute.nom }}
-            ({{ intervention.affectation.parti.sigle }})
+            @if (intervention.affectation) {
+              <sb-avatar [url]="intervention.affectation.photoUrl"></sb-avatar>
+              {{ intervention.affectation.depute.titre }}
+              <span class="name-visible">&nbsp;{{ intervention.affectation.depute.prenom }}&nbsp;</span>
+              {{ intervention.affectation.depute.nom }}
+              ({{ intervention.affectation.parti.sigle }})
+            } @else {
+              {{ intervention.note }}
+            }
           </mat-panel-title>
         </mat-expansion-panel-header>
-        <p *ngIf="isFunctionVisible(cardIndex, intervention.affectation.depute.id)">
-          @for (function of intervention.affectation.fonctions | slice : 0 :
-          getFunctionsDisplayCount(intervention.affectation); track function; let last = $last) {
-          <i class="fonctions">{{ function }}{{ !last ? ', ' : '' }}</i>
-          }
-          <i *ngIf="isMoreVisible(intervention.affectation)" class="fonctions">... </i>
-          <span
-            *ngIf="isMoreVisible(intervention.affectation)"
-            role="button"
-            (click)="showMore(intervention.affectation.depute.id)"
-            class="show-more-button"
-            >{{ 'feed.show-more' | translate }}
-          </span>
-        </p>
+        @if (intervention.affectation) {
+          <p *ngIf="isFunctionVisible(cardIndex, intervention.affectation.depute.id)">
+            @for (
+              function of intervention.affectation.fonctions
+                | slice: 0 : getFunctionsDisplayCount(intervention.affectation);
+              track function;
+              let last = $last
+            ) {
+              <i class="fonctions">{{ function }}{{ !last ? ', ' : '' }}</i>
+            }
+            <i *ngIf="isMoreVisible(intervention.affectation)" class="fonctions">... </i>
+            <span
+              *ngIf="isMoreVisible(intervention.affectation)"
+              role="button"
+              (click)="showMore(intervention.affectation.depute.id)"
+              class="show-more-button"
+              >{{ 'feed.show-more' | translate }}
+            </span>
+          </p>
+        }
         <p *ngFor="let paragraph of intervention.paragraphes">{{ paragraph }}</p>
       </mat-expansion-panel>
     </mat-accordion>
