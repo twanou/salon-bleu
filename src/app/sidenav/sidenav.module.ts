@@ -11,9 +11,10 @@ import { SbCommonModule } from '../sb-common/sb-common.module';
 import { DeputyListComponent } from './deputy-list/deputy-list.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { SidenavTabGroupComponent } from './sidenav-tab-group/sidenav-tab-group.component';
+import { FeedFormComponent } from './feed-form/feed-form.component';
 
 @NgModule({
-  declarations: [SidenavTabGroupComponent, DeputyListComponent, SearchFormComponent],
+  declarations: [SidenavTabGroupComponent, DeputyListComponent, SearchFormComponent, FeedFormComponent],
   imports: [
     CommonModule,
     MatListModule,

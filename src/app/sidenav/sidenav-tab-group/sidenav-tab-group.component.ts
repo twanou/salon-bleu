@@ -1,7 +1,9 @@
 import { Component, EventEmitter, OnDestroy, OnInit, Output } from '@angular/core';
 import { MatTabChangeEvent } from '@angular/material/tabs';
 import { Router } from '@angular/router';
-import { Subject } from 'rxjs';
+import { map, Observable, of, Subject } from 'rxjs';
+import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
+import { Option } from 'src/app/sb-common/chip-input/option.interface';
 
 @Component({
   selector: 'sb-sidenav-tab-group',
@@ -14,10 +16,23 @@ export class SidenavTabGroupComponent implements OnInit, OnDestroy {
 
   private route: string[] = ['/fil', '/recherche'];
   private destroy$ = new Subject<void>();
+  public subjectTypes$: Observable<Option[]> = of([]);
 
-  constructor(private router: Router) {}
+  constructor(
+    private router: Router,
+    private assnatApi: AssnatApiService,
+  ) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.subjectTypes$ = this.assnatApi.getSubjectTypes().pipe(
+      map((response) =>
+        response.types.map((typeDescription) => ({
+          id: typeDescription.type,
+          value: typeDescription.description,
+        })),
+      ),
+    );
+  }
 
   selectedTabChange(event: MatTabChangeEvent) {
     this.router.navigate([this.route[event.index]]);

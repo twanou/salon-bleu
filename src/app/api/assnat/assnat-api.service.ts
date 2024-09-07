@@ -16,9 +16,14 @@ import { SujetTypeReponse } from './models/sujet-type-reponse.interface';
 export class AssnatApiService {
   constructor(private httpClient: HttpClient) {}
 
-  public getSubjectsByDeputyIds(ids: string[], pageNumber: number, pageSize: number): Observable<SujetReponse> {
+  public getSubjectsByDeputyIdsOrSubjectTypes(
+    ids: string[],
+    subjectTypes: string[],
+    pageNumber: number,
+    pageSize: number,
+  ): Observable<SujetReponse> {
     return this.httpClient.get<SujetReponse>(
-      `${environment.apiUrl}/fil?page=${pageNumber}&taille=${pageSize}&deputeIds=${ids.join(',')}`,
+      `${environment.apiUrl}/fil?page=${pageNumber}&taille=${pageSize}&deputeIds=${ids.join(',')}&sujetTypes=${subjectTypes.join(',')}`,
     );
   }
 

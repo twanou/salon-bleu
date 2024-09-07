@@ -1,0 +1,12 @@
+<sb-multi-select
+  (onChange)="onSubjectTypeChange($event)"
+  [label]="'feed.input.types' | translate"
+  [source$]="subjectTypes$"
+  [selectedIds]="currentFeedCriteria.subjectTypes"
+></sb-multi-select>
+<span class="deputy-list">{{ 'feed.input.deputies' | translate }}</span>
+<sb-deputy-list
+  [selectedDeputies]="currentFeedCriteria.deputyIds"
+  (onChange)="onDeputyChange($event)"
+  (isLoaded)="isLoaded.emit($event)"
+></sb-deputy-list>

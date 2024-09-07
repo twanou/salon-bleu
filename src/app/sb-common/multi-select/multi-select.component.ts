@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { MatSelectChange } from '@angular/material/select';
 import { Observable, of } from 'rxjs';
@@ -9,19 +9,26 @@ import { Option } from '../chip-input/option.interface';
   templateUrl: './multi-select.component.html',
   styleUrl: './multi-select.component.scss',
 })
-export class MultiSelectComponent {
+export class MultiSelectComponent implements OnInit {
   @Input()
   public label = '';
 
   @Input()
   public source$: Observable<Option[]> = of([]);
 
+  @Input()
+  public selectedIds: string[] = [];
+
   @Output()
   public onChange = new EventEmitter<string[]>();
 
-  inputCtrl = new FormControl('');
+  public inputCtrl!: FormControl;
 
-  onSelectChange(selectChange: MatSelectChange) {
+  ngOnInit(): void {
+    this.inputCtrl = new FormControl(this.selectedIds);
+  }
+
+  onSelectChange(selectChange: MatSelectChange): void {
     this.onChange.emit(selectChange.value);
   }
 

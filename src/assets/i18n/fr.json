@@ -21,7 +21,11 @@
     "new": "Nouveau",
     "last-update": "Dernier journal disponible : {{date}}",
     "next-update": "À venir : {{date}}",
-    "currently-loading": "En cours de chargement : {{date}}"
+    "currently-loading": "En cours de chargement : {{date}}",
+    "input": {
+      "deputies": "Député(e)s à suivre",
+      "types": "Catégories à suivre"
+    }
   },
   "search": {
     "tab-title": "Recherche",
