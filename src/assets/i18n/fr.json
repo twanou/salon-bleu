@@ -21,13 +21,20 @@
     "copy-link": "Copier le lien",
     "copy-link-notification": "Lien copié!",
     "ref-assnat": "Afficher sur le site web de l'Assemblée nationale",
-    "new": "Nouveau",
     "last-update": "Dernier journal disponible : {{date}}",
     "next-update": "À venir : {{date}}",
     "currently-loading": "En cours de chargement : {{date}}",
     "input": {
       "deputies": "Député(e)s à suivre",
       "types": "Catégories à suivre"
+    },
+    "tag": {
+      "DECLARATION_DEPUTE": "Déclaration de député⸱e",
+      "QUESTIONS_REPONSES": "Questions et réponses",
+      "DEPOT_PETITION": "Dépôt de pétition",
+      "DECLARATION_MINISTERIELLE": "Déclaration ministérielle",
+      "PRESENTATION_PROJET_LOI": "Présentation de projet de loi",
+      "MOTION_SANS_PREAVIS": "Motion sans préavis"
     }
   },
   "search": {

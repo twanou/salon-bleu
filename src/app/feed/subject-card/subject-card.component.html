@@ -1,8 +1,8 @@
-<mat-card>
+<mat-card [ngClass]="{ 'new-card': isNew(subject.date) }">
   <mat-card-header>
     <mat-card-subtitle class="subtitle">
       {{ subject.date | sbdate }}
-      <sb-pill *ngIf="isNew(subject.date)">{{ 'feed.new' | translate }}</sb-pill>
+      <sb-pill>{{ 'feed.tag.' + subject.details.type | translate }}</sb-pill>
     </mat-card-subtitle>
     <mat-card-title>{{ subject.details.titre }} </mat-card-title>
   </mat-card-header>
