@@ -14,7 +14,6 @@ import { ChipInputComponent } from './chip-input/chip-input.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { MultiSelectComponent } from './multi-select/multi-select.component';
 import { PageTemplateComponent } from './page-template/page-template.component';
-import { PillComponent } from './pill/pill.component';
 import { SbdatePipe } from './pipes/sbdate.pipe';
 import { SpinnerComponent } from './spinner/spinner.component';
 
@@ -24,7 +23,6 @@ import { SpinnerComponent } from './spinner/spinner.component';
     AvatarComponent,
     PageTemplateComponent,
     ErrorPageComponent,
-    PillComponent,
     SbdatePipe,
     ChipInputComponent,
     MultiSelectComponent,
@@ -49,7 +47,6 @@ import { SpinnerComponent } from './spinner/spinner.component';
     PageTemplateComponent,
     TranslateModule,
     ErrorPageComponent,
-    PillComponent,
     SbdatePipe,
     ChipInputComponent,
     MultiSelectComponent,

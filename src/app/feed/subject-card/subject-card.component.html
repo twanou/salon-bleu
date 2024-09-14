@@ -2,7 +2,7 @@
   <mat-card-header>
     <mat-card-subtitle class="subtitle">
       {{ subject.date | sbdate }}
-      <sb-pill>{{ 'feed.tag.' + subject.details.type | translate }}</sb-pill>
+      <span class="tag">{{ 'feed.tag.' + subject.details.type | translate }}</span>
     </mat-card-subtitle>
     <mat-card-title>{{ subject.details.titre }} </mat-card-title>
   </mat-card-header>
