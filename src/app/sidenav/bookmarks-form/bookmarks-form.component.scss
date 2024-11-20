@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.list-item:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #e8e8e8;
+}
+
+.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.8rem;
+}
+
+.no-bookmark {
+  line-height: 8rem;
+  text-align: center;
+  color: var(--mdc-filled-text-field-hover-label-text-color);
+}

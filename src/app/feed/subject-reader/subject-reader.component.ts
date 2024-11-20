@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { SujetReponse } from 'src/app/api/assnat/models/sujet-reponse.interface';
 import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
+import { Vue } from 'src/app/api/assnat/models/vue.interface';
 import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
 
 @Component({
@@ -23,7 +24,7 @@ export class SubjectReaderComponent {
   ngOnInit(): void {
     const ids = this.route.snapshot.paramMap.getAll('ids');
     this.isLoading = true;
-    this.assnatApi.getSubjectsByIds(ids).subscribe({
+    this.assnatApi.getSubjectsByIds(ids, Vue.DETAILLEE).subscribe({
       next: (response: SujetReponse) => {
         if (response.sujets.length === 0) {
           this.router.navigate(['fil']);

@@ -9,6 +9,7 @@ import { PartiReponse } from './models/parti-reponse.interface';
 import { SujetReponse } from './models/sujet-reponse.interface';
 import { SujetRequete } from './models/sujet-requete.interface';
 import { SujetTypeReponse } from './models/sujet-type-reponse.interface';
+import { Vue } from './models/vue.interface';
 
 @Injectable({
   providedIn: 'root',
@@ -50,8 +51,8 @@ export class AssnatApiService {
     return this.httpClient.post<SujetReponse>(`${environment.apiUrl}/sujets`, request);
   }
 
-  public getSubjectsByIds(ids: string[]): Observable<SujetReponse> {
-    return this.httpClient.get<SujetReponse>(`${environment.apiUrl}/sujets/${ids}`);
+  public getSubjectsByIds(ids: string[], view: Vue): Observable<SujetReponse> {
+    return this.httpClient.get<SujetReponse>(`${environment.apiUrl}/sujets/${ids}?vue=${view}`);
   }
 
   public getAssignments(): Observable<AffectationsReponse> {

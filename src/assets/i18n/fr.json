@@ -14,13 +14,14 @@
     "motion-sans-preavis": "Motions sans préavis (22-05-2024)"
   },
   "feed": {
-    "tab-title": "Fil",
     "no-result": "Aucun résultat",
     "no-more-results": "Aucun autre résultat",
     "show-more": "Afficher plus",
     "copy-link": "Copier le lien",
-    "copy-link-notification": "Lien copié!",
+    "copy-link-notification": "Lien copié",
     "ref-assnat": "Afficher sur le site web de l'Assemblée nationale",
+    "add-bookmark": "Ajouter un signet",
+    "remove-bookmark": "Retirer le signet",
     "last-update": "Dernier journal disponible : {{date}}",
     "next-update": "À venir : {{date}}",
     "currently-loading": "En cours de chargement : {{date}}",
@@ -38,7 +39,6 @@
     }
   },
   "search": {
-    "tab-title": "Recherche",
     "input": {
       "keywords": "Mots clés",
       "keywords-placeholder": "phrase exacte ou mots clés",
@@ -49,6 +49,12 @@
     },
     "reset": "Réinitialiser",
     "see-result": "Voir les résultats"
+  },
+  "bookmarks": {
+    "no-bookmark": "Aucun signet",
+    "added-notification": "Signet ajouté",
+    "removed-notification": "Signet retiré",
+    "max-reached-notification": "Limite de signet atteinte"
   },
   "error": {
     "title": "Une erreur est survenue",

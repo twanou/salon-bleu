@@ -4,6 +4,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { TranslateService } from '@ngx-translate/core';
 import { Affectation } from 'src/app/api/assnat/models/composition.interface';
 import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
+import { BookmarkService } from 'src/app/sidenav/bookmark.service';
 
 @Component({
   selector: 'sb-subject-card',
@@ -25,10 +26,22 @@ export class SubjectCardComponent implements AfterViewInit {
   private panelStates: boolean[] = [];
   private readonly MAX_FUNCTION = 3;
 
-  constructor(private snackBar: MatSnackBar, private translateService: TranslateService) {}
+  constructor(
+    private snackBar: MatSnackBar,
+    private translateService: TranslateService,
+    public bookmarkService: BookmarkService,
+  ) {}
 
   ngAfterViewInit() {
     this.panels = this.panelsQueryList.toArray();
+  }
+
+  addToBookmarks(id: string) {
+    this.bookmarkService.addBookmark(id);
+  }
+
+  removeFromBookmarks(id: string) {
+    this.bookmarkService.removeBookmark(id);
   }
 
   openAssnatLink(url: string) {

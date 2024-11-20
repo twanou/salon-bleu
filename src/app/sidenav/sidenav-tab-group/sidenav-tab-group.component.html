@@ -6,7 +6,6 @@
   <mat-tab>
     <ng-template mat-tab-label>
       <mat-icon class="tab-icon">format_list_bulleted</mat-icon>
-      {{ 'feed.tab-title' | translate }}
     </ng-template>
     <sb-feed-form (isLoaded)="isLoaded.emit($event)"></sb-feed-form>
   </mat-tab>
@@ -14,8 +13,14 @@
   <mat-tab>
     <ng-template mat-tab-label>
       <mat-icon class="tab-icon">search</mat-icon>
-      {{ 'search.tab-title' | translate }}
     </ng-template>
     <sb-search-form></sb-search-form>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">bookmarks</mat-icon>
+    </ng-template>
+    <sb-bookmarks-form></sb-bookmarks-form>
   </mat-tab>
 </mat-tab-group>

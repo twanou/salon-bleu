@@ -52,6 +52,22 @@
   </mat-card-content>
   <mat-card-actions class="action">
     <button
+      *ngIf="!bookmarkService.isBookmarked(subject.id)"
+      (click)="addToBookmarks(subject.id)"
+      [matTooltip]="'feed.add-bookmark' | translate"
+      mat-icon-button
+    >
+      <mat-icon>bookmark_add</mat-icon>
+    </button>
+    <button
+      *ngIf="bookmarkService.isBookmarked(subject.id)"
+      (click)="removeFromBookmarks(subject.id)"
+      [matTooltip]="'feed.remove-bookmark' | translate"
+      mat-icon-button
+    >
+      <mat-icon>bookmark_added</mat-icon>
+    </button>
+    <button
       (click)="onDirectLinkCopy()"
       [cdkCopyToClipboard]="getDirectLink(subject.id)"
       [matTooltip]="'feed.copy-link' | translate"

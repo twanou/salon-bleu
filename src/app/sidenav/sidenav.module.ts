@@ -8,13 +8,20 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ApiModule } from '../api/api.module';
 import { SbCommonModule } from '../sb-common/sb-common.module';
+import { BookmarksFormComponent } from './bookmarks-form/bookmarks-form.component';
 import { DeputyListComponent } from './deputy-list/deputy-list.component';
+import { FeedFormComponent } from './feed-form/feed-form.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { SidenavTabGroupComponent } from './sidenav-tab-group/sidenav-tab-group.component';
-import { FeedFormComponent } from './feed-form/feed-form.component';
 
 @NgModule({
-  declarations: [SidenavTabGroupComponent, DeputyListComponent, SearchFormComponent, FeedFormComponent],
+  declarations: [
+    SidenavTabGroupComponent,
+    DeputyListComponent,
+    SearchFormComponent,
+    FeedFormComponent,
+    BookmarksFormComponent,
+  ],
   imports: [
     CommonModule,
     MatListModule,

@@ -14,7 +14,7 @@ export class SidenavTabGroupComponent implements OnInit, OnDestroy {
   @Output()
   public isLoaded = new EventEmitter<boolean>();
 
-  private route: string[] = ['/fil', '/recherche'];
+  private route: string[] = ['/fil', '/recherche', '/signets'];
   private destroy$ = new Subject<void>();
   public subjectTypes$: Observable<Option[]> = of([]);
 
