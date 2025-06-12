@@ -6,9 +6,10 @@ import { Observable, debounceTime, distinctUntilChanged, of, switchMap } from 'r
 import { Option } from './option.interface';
 
 @Component({
-  selector: 'sb-chip-input',
-  templateUrl: './chip-input.component.html',
-  styleUrl: './chip-input.component.scss',
+    selector: 'sb-chip-input',
+    templateUrl: './chip-input.component.html',
+    styleUrl: './chip-input.component.scss',
+    standalone: false
 })
 export class ChipInputComponent {
   @Input()

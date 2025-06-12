@@ -7,9 +7,10 @@ import { map, shareReplay } from 'rxjs/operators';
 import { TemplateService } from './sb-common/service/template-service.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    standalone: false
 })
 export class AppComponent implements OnInit, AfterViewChecked {
   @ViewChild(MatSidenav)

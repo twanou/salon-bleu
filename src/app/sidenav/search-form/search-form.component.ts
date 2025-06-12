@@ -10,9 +10,10 @@ import { SearchCriteria } from '../search-criteria-service/search-criteria.inter
 import { SearchCriteriaService } from '../search-criteria-service/search-criteria.service';
 
 @Component({
-  selector: 'sb-search-form',
-  templateUrl: './search-form.component.html',
-  styleUrl: './search-form.component.scss',
+    selector: 'sb-search-form',
+    templateUrl: './search-form.component.html',
+    styleUrl: './search-form.component.scss',
+    standalone: false
 })
 export class SearchFormComponent {
   private selectedKeywords: string[] = [];

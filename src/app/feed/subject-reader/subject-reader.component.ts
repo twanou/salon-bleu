@@ -7,9 +7,10 @@ import { Vue } from 'src/app/api/assnat/models/vue.interface';
 import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
 
 @Component({
-  selector: 'sb-subject-reader',
-  templateUrl: './subject-reader.component.html',
-  styleUrls: ['./subject-reader.component.scss'],
+    selector: 'sb-subject-reader',
+    templateUrl: './subject-reader.component.html',
+    styleUrls: ['./subject-reader.component.scss'],
+    standalone: false
 })
 export class SubjectReaderComponent {
   public subjects: Sujet[] = [];

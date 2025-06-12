@@ -8,9 +8,10 @@ import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.ser
 import { BookmarkService } from 'src/app/sidenav/bookmark.service';
 
 @Component({
-  selector: 'sb-bookmark-reader',
-  templateUrl: './bookmark-reader.component.html',
-  styleUrl: './bookmark-reader.component.scss',
+    selector: 'sb-bookmark-reader',
+    templateUrl: './bookmark-reader.component.html',
+    styleUrl: './bookmark-reader.component.scss',
+    standalone: false
 })
 export class BookmarkReaderComponent implements OnInit, OnDestroy {
   public subjects: Sujet[] = [];

@@ -6,9 +6,10 @@ import { SearchCriteriaService } from 'src/app/sidenav/search-criteria-service/s
 import { FeedPagerComponent } from '../feed-pager/feed-pager.component';
 
 @Component({
-  selector: 'sb-search-feed',
-  templateUrl: './search-feed.component.html',
-  styleUrl: './search-feed.component.scss',
+    selector: 'sb-search-feed',
+    templateUrl: './search-feed.component.html',
+    styleUrl: './search-feed.component.scss',
+    standalone: false
 })
 export class SearchFeedComponent implements AfterViewInit, OnDestroy {
   public searchCriteria: SearchCriteria = new SearchCriteria();
