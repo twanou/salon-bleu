@@ -17,3 +17,4 @@ Types de journaux disponibles pour l'instant :
 [Assnat API](https://api.salonbleu.quebec/documentation)
 
 [Application Salon bleu](https://www.salonbleu.quebec)
+
