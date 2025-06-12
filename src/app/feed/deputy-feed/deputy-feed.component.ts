@@ -6,9 +6,10 @@ import { FeedCriteria } from 'src/app/sidenav/feed-criteria-service/feed-criteri
 import { FeedPagerComponent } from '../feed-pager/feed-pager.component';
 
 @Component({
-  selector: 'sb-deputy-feed',
-  templateUrl: './deputy-feed.component.html',
-  styleUrls: ['./deputy-feed.component.scss'],
+    selector: 'sb-deputy-feed',
+    templateUrl: './deputy-feed.component.html',
+    styleUrls: ['./deputy-feed.component.scss'],
+    standalone: false
 })
 export class DeputyFeedComponent implements AfterViewInit, OnDestroy {
   public feedCriteria: FeedCriteria = new FeedCriteria();

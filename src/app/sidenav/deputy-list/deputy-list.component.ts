@@ -7,9 +7,10 @@ import { Depute } from 'src/app/api/assnat/models/depute.interface';
 import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.service';
 
 @Component({
-  selector: 'sb-deputy-list',
-  templateUrl: './deputy-list.component.html',
-  styleUrls: ['./deputy-list.component.scss'],
+    selector: 'sb-deputy-list',
+    templateUrl: './deputy-list.component.html',
+    styleUrls: ['./deputy-list.component.scss'],
+    standalone: false
 })
 export class DeputyListComponent implements OnInit {
   @Output() isLoaded = new EventEmitter<boolean>();

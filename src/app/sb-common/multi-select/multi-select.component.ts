@@ -5,9 +5,10 @@ import { Observable, of } from 'rxjs';
 import { Option } from '../chip-input/option.interface';
 
 @Component({
-  selector: 'sb-multi-select',
-  templateUrl: './multi-select.component.html',
-  styleUrl: './multi-select.component.scss',
+    selector: 'sb-multi-select',
+    templateUrl: './multi-select.component.html',
+    styleUrl: './multi-select.component.scss',
+    standalone: false
 })
 export class MultiSelectComponent implements OnInit {
   @Input()

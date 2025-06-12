@@ -6,9 +6,10 @@ import { FeedCriteriaService } from '../feed-criteria-service/feed-criteria-serv
 import { FeedCriteria } from '../feed-criteria-service/feed-criteria.interface';
 
 @Component({
-  selector: 'sb-feed-form',
-  templateUrl: './feed-form.component.html',
-  styleUrl: './feed-form.component.scss',
+    selector: 'sb-feed-form',
+    templateUrl: './feed-form.component.html',
+    styleUrl: './feed-form.component.scss',
+    standalone: false
 })
 export class FeedFormComponent {
   @Output() isLoaded = new EventEmitter<boolean>();

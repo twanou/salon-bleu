@@ -7,9 +7,10 @@ import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
 import { BookmarkService } from 'src/app/sidenav/bookmark.service';
 
 @Component({
-  selector: 'sb-subject-card',
-  templateUrl: './subject-card.component.html',
-  styleUrls: ['./subject-card.component.scss'],
+    selector: 'sb-subject-card',
+    templateUrl: './subject-card.component.html',
+    styleUrls: ['./subject-card.component.scss'],
+    standalone: false
 })
 export class SubjectCardComponent implements AfterViewInit {
   @Input()

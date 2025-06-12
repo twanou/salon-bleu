@@ -6,9 +6,10 @@ import { ErrorHandlerService } from 'src/app/sb-common/service/error-handler.ser
 import { TemplateService } from 'src/app/sb-common/service/template-service.service';
 
 @Component({
-  selector: 'sb-feed-pager',
-  templateUrl: './feed-pager.component.html',
-  styleUrl: './feed-pager.component.scss',
+    selector: 'sb-feed-pager',
+    templateUrl: './feed-pager.component.html',
+    styleUrl: './feed-pager.component.scss',
+    standalone: false
 })
 export class FeedPagerComponent implements OnInit, OnDestroy {
   @Input()

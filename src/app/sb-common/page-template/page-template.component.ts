@@ -2,9 +2,10 @@ import { Component, Input, OnInit } from '@angular/core';
 import { TemplateService } from '../service/template-service.service';
 
 @Component({
-  selector: 'sb-page-template',
-  templateUrl: './page-template.component.html',
-  styleUrls: ['./page-template.component.scss'],
+    selector: 'sb-page-template',
+    templateUrl: './page-template.component.html',
+    styleUrls: ['./page-template.component.scss'],
+    standalone: false
 })
 export class PageTemplateComponent implements OnInit {
   @Input()
