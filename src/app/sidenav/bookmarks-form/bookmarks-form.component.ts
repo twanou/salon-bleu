@@ -11,9 +11,10 @@ import { TemplateService } from 'src/app/sb-common/service/template-service.serv
 import { BookmarkService } from '../bookmark.service';
 
 @Component({
-  selector: 'sb-bookmarks-form',
-  templateUrl: './bookmarks-form.component.html',
-  styleUrl: './bookmarks-form.component.scss',
+    selector: 'sb-bookmarks-form',
+    templateUrl: './bookmarks-form.component.html',
+    styleUrl: './bookmarks-form.component.scss',
+    standalone: false
 })
 export class BookmarksFormComponent {
   public subjects: Sujet[] = [];

@@ -6,9 +6,10 @@ import { AssnatApiService } from 'src/app/api/assnat/assnat-api.service';
 import { Option } from 'src/app/sb-common/chip-input/option.interface';
 
 @Component({
-  selector: 'sb-sidenav-tab-group',
-  templateUrl: './sidenav-tab-group.component.html',
-  styleUrl: './sidenav-tab-group.component.scss',
+    selector: 'sb-sidenav-tab-group',
+    templateUrl: './sidenav-tab-group.component.html',
+    styleUrl: './sidenav-tab-group.component.scss',
+    standalone: false
 })
 export class SidenavTabGroupComponent implements OnInit, OnDestroy {
   @Output()
