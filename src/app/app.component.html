@@ -1,11 +1,19 @@
 <mat-toolbar color="primary">
-  <button type="button" mat-icon-button (click)="drawer.toggle()" *ngIf="(isSidenav$ | async) && (isHandset$ | async)">
-    <mat-icon *ngIf="!drawer.opened">menu</mat-icon>
-    <mat-icon *ngIf="drawer.opened">arrow_back</mat-icon>
-  </button>
-  <button type="button" class="hidden" *ngIf="!(isSidenav$ | async) && (isHandset$ | async)" mat-icon-button>
-    <mat-icon>menu</mat-icon>
-  </button>
+  @if ((isSidenav$ | async) && (isHandset$ | async)) {
+    <button type="button" mat-icon-button (click)="drawer.toggle()">
+      @if (!drawer.opened) {
+        <mat-icon>menu</mat-icon>
+      }
+      @if (drawer.opened) {
+        <mat-icon>arrow_back</mat-icon>
+      }
+    </button>
+  }
+  @if (!(isSidenav$ | async) && (isHandset$ | async)) {
+    <button type="button" class="hidden" mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+  }
 
   <a
     class="home-link"
@@ -14,7 +22,7 @@
     extended
     color="primary"
     routerLink="."
-  >
+    >
     <span class="banner">
       <img class="logo" src="assets/icons/qc.svg" />
       <span class="app-title">{{ 'app.title' | translate }}</span>
@@ -34,7 +42,7 @@
     class="sidenav filler"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="isSidenavReady && (isSidenav$ | async) && !(isHandset$ | async)"
-  >
+    >
     <sb-sidenav-tab-group (isLoaded)="isSidenavReady = $event"></sb-sidenav-tab-group>
   </mat-sidenav>
   <mat-sidenav-content id="sidenav-content">
