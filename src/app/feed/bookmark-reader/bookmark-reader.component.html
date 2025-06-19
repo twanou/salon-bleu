@@ -1,10 +1,12 @@
 <sb-page-template [sidenav]="true">
   <sb-spinner [isLoading]="isLoading">
-    <sb-subject-card *ngFor="let subject of subjects" class="feed-item" [subject]="subject"></sb-subject-card>
+    @for (subject of subjects; track subject) {
+      <sb-subject-card class="feed-item" [subject]="subject"></sb-subject-card>
+    }
   </sb-spinner>
-  <ng-container *ngIf="subjects.length === 0 && !isLoading">
+  @if (subjects.length === 0 && !isLoading) {
     <mat-card class="feed-item">
       <mat-card-content>{{ 'bookmarks.no-bookmark' | translate }}</mat-card-content>
     </mat-card>
-  </ng-container>
+  }
 </sb-page-template>
