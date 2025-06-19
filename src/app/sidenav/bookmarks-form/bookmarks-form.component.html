@@ -4,12 +4,14 @@
       class="list-item"
       [ngClass]="{ selected: subject.id === selectedSubject }"
       (click)="select(subject.id)"
-    >
+      >
       <div class="row">
         <sb-avatar [url]="subject.details.interventions[0].affectation.photoUrl"></sb-avatar>
         <span class="name">{{ subject.details.titre }}</span>
       </div>
     </mat-list-item>
   }
-  <p class="no-bookmark" *ngIf="subjects.length === 0">{{ 'bookmarks.no-bookmark' | translate }}</p>
+  @if (subjects.length === 0) {
+    <p class="no-bookmark">{{ 'bookmarks.no-bookmark' | translate }}</p>
+  }
 </mat-list>
