@@ -7,10 +7,10 @@ import { Sujet } from 'src/app/api/assnat/models/sujet.interface';
 import { BookmarkService } from 'src/app/sidenav/bookmark.service';
 
 @Component({
-    selector: 'sb-subject-card',
-    templateUrl: './subject-card.component.html',
-    styleUrls: ['./subject-card.component.scss'],
-    standalone: false
+  selector: 'sb-subject-card',
+  templateUrl: './subject-card.component.html',
+  styleUrls: ['./subject-card.component.scss'],
+  standalone: false,
 })
 export class SubjectCardComponent implements AfterViewInit {
   @Input()
@@ -95,7 +95,7 @@ export class SubjectCardComponent implements AfterViewInit {
           break;
         }
       }
-      this.panels[scrollTarget]._body.nativeElement.parentElement?.scrollIntoView({
+      this.panels[scrollTarget]._body.nativeElement.parentElement?.parentElement?.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
         inline: 'nearest',
